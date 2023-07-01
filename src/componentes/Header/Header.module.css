@@ -1,0 +1,55 @@
+.Header{
+    background-color: #2c3e50;
+    color: antiquewhite;
+
+    text-align: center;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.Button{
+    background-color: #2c3e50;
+    color: antiquewhite;
+    width: 7%;
+    height: 2.6rem;
+    border-radius: 10%;
+
+    margin: auto;
+}
+
+.img{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.Titulos{
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Links{
+    color: antiquewhite;
+    text-align: center;
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.Links > a {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
