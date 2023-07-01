@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.io/Samuel-Santana109/tree/master/portifolio_react",
+  "homepage": "https://github.io/Samuel-Santana109/portifolio_react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
