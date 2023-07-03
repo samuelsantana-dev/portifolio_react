@@ -16,6 +16,7 @@
  ## Tecnologias Utilizadas
  - Html 5
  - Css 3
+ - Css modules
  - React Js
  - Javascript
 
