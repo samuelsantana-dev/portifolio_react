@@ -1,5 +1,4 @@
 import Style from './Header.module.css'
-
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 

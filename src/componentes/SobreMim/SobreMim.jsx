@@ -2,6 +2,7 @@ import Style from './SobreMim.module.css'
 
 export function SobreMim(){
     return(
+        <>
         <div className={Style.div}>
             <h1>Sobre Mim</h1>
             <p>
@@ -17,5 +18,6 @@ export function SobreMim(){
                  Atualmente, sou estagiário no banco BRB, onde, embora minhas atividades não estejam diretamente relacionadas à minha área de atuação, trabalho diariamente com documentos e planilhas, o que contribui para o desenvolvimento de um conjunto de habilidades abrangente.
             </p>
         </div>
+        </>
     )
 }

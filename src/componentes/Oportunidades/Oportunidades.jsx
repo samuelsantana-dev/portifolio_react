@@ -4,7 +4,7 @@ export function Oportunidades(){
     return(
         
         <div className={Style.div}>
-            <h2 >DISPONIVEL PARA OPORTUNIDADES</h2>
+            <h2>DISPONIVEL PARA OPORTUNIDADES</h2>
             <h5>Gmail - samuelsantanadasilva8@gmail.com</h5>
             <h5>Telefone - whatsapp (61) 9 9107-6831</h5>
             <a 

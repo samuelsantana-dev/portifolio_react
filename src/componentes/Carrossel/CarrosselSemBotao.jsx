@@ -41,9 +41,9 @@ export function CarrosselSemBotao(props){
 
     return(
         <div>
+             <h1>{props.NomeLinguagem}</h1>
                 <div className={Style.carousel_container}>
-                  <h1>{props.NomeLinguagem}</h1>
-
+              
                     <div className={Style.carousel}>
 
                         <div className={Style.carousel_item}>

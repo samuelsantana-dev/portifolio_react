@@ -1,5 +1,8 @@
 import Style from './NavBar.module.css'
 
+//import SplitBasicExample from '../BotaoMenu/BotaoMenu.JSX'
+
+
 export function NavBar(){
     return(
         <div className={Style.NavBar}>   
