@@ -46,7 +46,13 @@ export function CarrosselReact(){
                 explicativo4="Fiz participaçao nesse projeto"
                 href4="https://github.com/Samuel-Santana109/leading_page"
                 src4="https://cdn.pixabay.com/photo/2016/11/18/17/47/iphone-1836071_640.jpg"
+
+                titulo5="Estudos"
+                explicativo5="Meus estudos em React Js"
+                href5="https://github.com/Samuel-Santana109/estudos/tree/master/react"
+                src5="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400"
             />
+            
             
         </div>
     )

@@ -1,9 +1,9 @@
 import { NavBar } from './componentes/NavBar/NavBar'
 import { Header } from './componentes/Header/Header'
 import { SectionProjetos } from './componentes/SectionProjetos/SectionProjetos.jsx'
-import {SobreMim} from './componentes/SobreMim/SobreMim'
-import { Oportunidades } from './componentes/Oportunidades/Oportunidades'
-import { Habilidade } from './componentes/Habilidades/Habilidades'
+import {SobreMim} from './section/SobreMim/SobreMim'
+import { Oportunidades } from './section/Oportunidades/Oportunidades'
+import { Habilidade } from './section/Habilidades/Habilidades'
 import { Footer } from './componentes/Footer/Footer'
 
 import './App.css'

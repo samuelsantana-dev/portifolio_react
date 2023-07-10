@@ -32,6 +32,12 @@ export function CarrpsselJavascript(){
                 explicativo5="Projeto foi criado quando estava iniciando meus estudos em html 5 e css 3 foi um site feito em parallax"
                 href5="https://github.com/Samuel-Santana109/arena_conference/tree/master"
                 src5="https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_640.jpg"
+
+                
+                titulo6="Estudos"
+                explicativo6="Aqui estao todos os meus estudos com essas 3 tecnologias"
+                href6="https://github.com/Samuel-Santana109/estudos"
+                src6="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400"
             />
             
         </div>

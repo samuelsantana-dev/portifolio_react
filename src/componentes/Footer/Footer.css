@@ -11,3 +11,15 @@
     gap: 1rem;
 
 }
+
+.a{
+    color: white;
+    text-decoration: none;
+}
+
+.a:hover{
+    background-color: black;
+    padding: .5rem;
+    border-radius: 1rem;
+
+}

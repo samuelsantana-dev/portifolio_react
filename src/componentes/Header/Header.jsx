@@ -13,23 +13,23 @@ export function Header(){
 
              <ul className={Style.Titulos}>
               <h3> Samuel Santana da Silva </h3>
-              <li class="text-light"> Desenvolvedor  front-end </li>
+              <li class="text-light"> Desenvolvedor front-end Junior </li>
               <li class="text-light"> Desenvolvedor de ChatBoots </li>
-              <li class="text-light"> Desenvolvedor de Planilhas</li>
+              <li class="text-light"> Desenvolvedor de Planilhas </li>
              </ul>       
 
               <button className={Style.Button}>
-                      Contato
+                      Contatos
               </button>   
 
             <div className={Style.Links}>
-                <a href="https://www.instagram.com/samuelss77/" target="_blank">
+                <a href="https://www.linkedin.com/in/samuelss10/" target="_blank">
                     <FaLinkedin/>
                 </a>
-                <a href="https://www.linkedin.com/in/samuelss10/" target="_blank">
+                <a href="https://www.instagram.com/samuelss77/" target="_blank">
                       <FaInstagram/>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/Samuel-Santana109" target="_blank">
                     <FaGithub/>
                 </a>
             </div>

@@ -15,6 +15,9 @@ export function Habilidade(){
                 <li>Npx e Npm</li>
                 <li>Dialogflow</li>
                 <li>Typscript</li>
+                <li>Sass e Less</li>
+                <li>tailwindui</li>
+
             </ul>
          </div>
         
