@@ -1,4 +1,4 @@
-import { CarrosselSemBotao } from '../../Carrossel/CarrosselSemBotao'
+import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
 //import Style from './KolinChatBoots.module.css'
 
 

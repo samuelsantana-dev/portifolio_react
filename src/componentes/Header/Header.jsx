@@ -1,4 +1,7 @@
 import Style from './Header.module.css'
+
+import { BotaoAnimado } from '../Botoes/BotaoAnimado/BotaoAnimado'
+
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
@@ -18,9 +21,7 @@ export function Header(){
               <li class="text-light"> Desenvolvedor de Planilhas </li>
              </ul>       
 
-              <button className={Style.Button}>
-                      Contatos
-              </button>   
+            <BotaoAnimado />
 
             <div className={Style.Links}>
                 <a href="https://www.linkedin.com/in/samuelss10/" target="_blank">

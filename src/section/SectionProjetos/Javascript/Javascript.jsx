@@ -1,5 +1,5 @@
 import Style from './Javascript.module.css'
-import { CarrosselSemBotao } from '../../Carrossel/CarrosselSemBotao'
+import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
 
 export function CarrpsselJavascript(){
     return(

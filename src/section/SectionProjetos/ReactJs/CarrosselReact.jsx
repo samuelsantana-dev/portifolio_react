@@ -1,23 +1,7 @@
 import Style from './CarrosselReact.module.css'
-import { CarrosselSemBotao } from '../../Carrossel/CarrosselSemBotao'
-/*
-export function CarrosselReact(){
 
+import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
 
-
-    return (
-        <div className={Style.div}>
-          <CarrosselSemBotao NomeLinguagem="Javascript, Html e Css" items={items}
-           titulo="BLOG"
-           explicativo="Este é um blog feito em react js"
-           href="https://github.com/Samuel-Santana109/blog_react_ts"
-           src="https://cdn.pixabay.com/photo/2016/08/17/04/41/template-1599665_640.png"
-            />
-          
-        </div>
-      );
-      
-}*/
 
 
 export function CarrosselReact(){

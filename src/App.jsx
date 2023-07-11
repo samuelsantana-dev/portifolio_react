@@ -1,6 +1,6 @@
 import { NavBar } from './componentes/NavBar/NavBar'
 import { Header } from './componentes/Header/Header'
-import { SectionProjetos } from './componentes/SectionProjetos/SectionProjetos.jsx'
+import { SectionProjetos } from './section/SectionProjetos/SectionProjetos.jsx'
 import {SobreMim} from './section/SobreMim/SobreMim'
 import { Oportunidades } from './section/Oportunidades/Oportunidades'
 import { Habilidade } from './section/Habilidades/Habilidades'
