@@ -11,7 +11,23 @@
     justify-content: center;
     gap: 1rem;
 
+    /*Animaçoes*/
+    transform: translateX(-100%);
+    animation: slide-in 2s forwards;
 }
+  
+@keyframes slide-in {
+    /* Define a animação em 50% da duração total */
+    50% {
+      transform: translateX(-100%); /* Desloca o elemento para a esquerda */
+    }
+    
+    /* Define a animação no final da duração total */
+    100% {
+      transform: translateX(0); /* Volta o elemento à posição original */
+    }
+  }
+  
 
 .Button{
     background-color: #2c3e50;
@@ -21,7 +37,26 @@
     border-radius: 10%;
 
     margin: auto;
+    animation: pulse 1s infinite;
 }
+
+@keyframes pulse {
+    /* Define o estado inicial da animação */
+    0% {
+      transform: scale(1); /* Escala normal do elemento */
+    }
+  
+    /* Define o estado intermediário da animação */
+    50% {
+      transform: scale(1.1); /* Escala aumentada em 1.2 vezes */
+    }
+  
+    /* Define o estado final da animação */
+    100% {
+      transform: scale(1); /* Volta à escala normal do elemento */
+    }
+  }
+  
 
 .img{
     width: 15rem;
@@ -33,6 +68,7 @@
 
 .Titulos{
     padding: 1rem;
+    list-style: none;
 
     display: flex;
     flex-direction: column;

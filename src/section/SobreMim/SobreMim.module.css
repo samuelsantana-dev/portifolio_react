@@ -9,4 +9,20 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+     /*Animation*/
+     transform: translateY(100%); /* Inicialmente, o rodapé é deslocado para baixo, 100% da sua altura */
+     transition-delay: 5s;
+     animation: slide-up 1s forwards; /* Aplica a animação "slide-up" com duração de 1 segundo */
 }
+
+
+
+@keyframes slide-up {
+    0% {
+      transform: translateY(100%); /* No início da animação, o rodapé está deslocado para baixo */
+    }
+    100% {
+      transform: translateY(0); /* No final da animação, o rodapé retorna à posição original, deslocado para cima */
+    }
+  }
