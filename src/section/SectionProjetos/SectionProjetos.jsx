@@ -6,7 +6,7 @@ import Style from './SectionProjetos.module.css'
 
 export function SectionProjetos(){
     return(
-        <div className={Style.Section}>
+        <div  id="Projetos"  className={Style.Section}>
             <h1 className={Style.titulo}>  Principais Projetos</h1>   
             <CarrosselReact />
            <CarrpsselJavascript />

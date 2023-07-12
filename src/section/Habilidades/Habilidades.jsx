@@ -36,8 +36,8 @@ export const Habilidade = () => {
     return(
         <section class="technologies-container">
         
-        <div>
-          <h2>Tecnologias</h2>
+        <div id="Tecnologias">
+          <h2 >Tecnologias</h2>
         </div>
         <div class="technologies-grid">
     

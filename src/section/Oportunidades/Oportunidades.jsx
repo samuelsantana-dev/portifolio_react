@@ -3,7 +3,7 @@ import Style from './Oportunidades.module.css'
 export function Oportunidades(){
     return(
         
-        <div className={Style.div}>
+        <div id="Oportunidades" className={Style.div}>
            
             <h2>DISPONIVEL PARA OPORTUNIDADES</h2>
             <h5>Gmail - samuelsantanadasilva8@gmail.com</h5>
