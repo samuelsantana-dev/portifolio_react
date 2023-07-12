@@ -19,10 +19,11 @@
  - Css modules
  - React Js
  - Javascript
+ - Sass e Scss
 
  ## Instalação 
- - Clone o repositório: git clone https://github.com/Samuel-Santana109/portifolio/edit/main/README.md
- - Abra o arquivo index.html em seu navegador
+ - Clone o repositório: git clone https://github.com/Samuel-Santana109/portifolio_react.git
+ - Abra a visualização do projeto e divirta-se
  - Explore o site e divirta-se!
 
 ## Contribuição 
