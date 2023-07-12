@@ -25,13 +25,13 @@ export function Header(){
 
             <div className={Style.Links}>
                 <a href="https://www.linkedin.com/in/samuelss10/" target="_blank">
-                    <FaLinkedin/>
+                    <FaLinkedin />
                 </a>
                 <a href="https://www.instagram.com/samuelss77/" target="_blank">
-                      <FaInstagram/>
+                      <FaInstagram />
                 </a>
                 <a href="https://github.com/Samuel-Santana109" target="_blank">
-                    <FaGithub/>
+                    <FaGithub />
                 </a>
             </div>
         </div>

@@ -11,25 +11,7 @@
     justify-content: center;
     gap: 1rem;
 
-    /*Animaçoes*/
-    transform: translateX(-100%);
-    animation: slide-in 2s forwards;
 }
-  
-@keyframes slide-in {
-    /* Define a animação em 50% da duração total */
-    50% {
-      transform: translateX(-100%); /* Desloca o elemento para a esquerda */
-    }
-    
-    /* Define a animação no final da duração total */
-    100% {
-      transform: translateX(0); /* Volta o elemento à posição original */
-    }
-  }
-  
-
-
 
 .img{
     width: 15rem;
@@ -61,4 +43,16 @@
     color: aliceblue;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 480px) {
+  .img {
+      width: 10rem; /* Reduz o tamanho da imagem para caber melhor na tela */
+      height: 10rem;
+  }
+
+  .Links > a {
+      font-size: 2rem; /* Reduz o tamanho da fonte dos links para caber melhor na tela */
+  }
 }

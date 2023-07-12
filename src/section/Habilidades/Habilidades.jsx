@@ -18,9 +18,9 @@ import {
   } from "react-icons/di";
   
   const technologies = [
-      { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "HTML 5" },
-      { id: "css", name: "CSS3", icon: <DiCss3 />, text: "CSS 3 " },
-      { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "JavaScript" },
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "HTML 5" },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, text: "CSS 3 " },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "JavaScript" },
     { id: "react", name: "React", icon: <DiReact />, text: "React" },
     { id: "bootstrap", name: "Bootstrap 5", icon: <DiBootstrap />, text: "Bootstrap"},
     { id: "typescript", name: "Typscript", icon: <DiTypo3 />, text: "Typscript"}, 
@@ -56,28 +56,3 @@ export const Habilidade = () => {
     )
 
   }
-  /*
-export function Habilidade(){
-    return(
-        <>
-         <div className={Style.div}>
-            <h2>Habilidades</h2>
-            <ul  className={Style.ul}>
-                <li>Javascript</li>
-                <li>React Js</li>
-                <li>Git e github</li>
-                <li>Bootstrap 5</li>
-                <li>Html 5</li>
-                <li>Css 3</li>
-                <li>Npx e Npm</li>
-                <li>Dialogflow</li>
-                <li>Typscript</li>
-                <li>Sass e Less</li>
-                <li>tailwindui</li>
-
-            </ul>
-         </div>
-        
-        </>, text: ""
-    )
-}*/

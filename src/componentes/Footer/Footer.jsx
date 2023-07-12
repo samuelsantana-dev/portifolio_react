@@ -7,14 +7,14 @@ import {BotaoAnimado} from '../../componentes/Botoes/BotaoAnimado/BotaoAnimado'
 
 export function Footer(){
     return(
-        <footer class=" text-white footer">
+        <footer class="text-white footer">
             <Container>
                 <Row>
             <Col>
               <h5>Desenvolvedor</h5>
               <p>Hoje sou desenvolvedor Front-end mas pretendo me tornar um full stack web e futuramente entrar para o mundo mobile</p>
             </Col>
-          <Col>
+          <Col class="d-flex">
             <BotaoAnimado />
             
             <p>Email: samuelsantanadasilva8@gmail.com</p>
