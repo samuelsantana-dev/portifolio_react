@@ -19,7 +19,7 @@
  - Css modules
  - React Js
  - Javascript
- - - Sass e Scss
+ - Sass e Scss
 
  ## Instalação 
  - Clone o repositório: git clone https://github.com/Samuel-Santana109/portifolio_react.git
