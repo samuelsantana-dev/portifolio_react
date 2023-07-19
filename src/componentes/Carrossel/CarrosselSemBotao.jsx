@@ -17,7 +17,6 @@ const items = [
           <h1 class="NomeLinguagem">{props.NomeLinguagem}</h1>
           <div class="carousel_container">
               <div class='carousel'>
-
                   {items.map((item, index) => (
                       <div key={index} class="carousel_item">
                           <h4>{item.titulo}</h4>

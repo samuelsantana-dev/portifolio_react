@@ -1,0 +1,42 @@
+
+.carousel_container {
+    margin: auto;
+    width: 100%;
+    /*Aqui controla a barra de navegaçao*/
+    overflow: auto;
+  }
+  
+.carousel {
+    margin: 1rem;
+    width: 100%;
+    
+    /*Aqui controla a barra de navegaçao*/
+    transition: transform 0.3s ease-in-out;
+  
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+.carousel_item {
+    flex: 1 1 100%;
+  }
+
+  .img {
+    /*width: 18rem;
+    height: auto;
+    max-height: 100%;*/
+    width: 299px;
+    height: 168px;
+  }
+
+  /* Media queries */
+@media (max-width:600px) {
+  .carousel_item {
+      flex-basis: calc(100% - (3rem *2));
+  }
+  .img{
+    width: 200px;
+    height: 128px;
+  }
+}

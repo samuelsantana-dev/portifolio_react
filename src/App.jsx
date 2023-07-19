@@ -6,7 +6,6 @@ import { Oportunidades } from './section/Oportunidades/Oportunidades'
 import { Habilidade } from './section/Habilidades/Habilidades'
 import { Footer } from './componentes/Footer/Footer'
 
-import './App.css'
 
 function App() {
 
