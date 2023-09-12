@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './CarrosselSemBotao.css';
 
 export function CarrosselSemBotao(props){
@@ -12,25 +13,36 @@ const items = [
   { titulo: props.titulo6, src: props.src6, explicativo: props.explicativo6, href: props.href6 }
 ];
 
-    return(
-      <>       
-          <h1 class="NomeLinguagem">{props.NomeLinguagem}</h1>
-          <div class="carousel_container">
-              <div class='carousel'>
-                  {items.map((item, index) => (
-                      <div key={index} class="carousel_item">
-                          <h4>{item.titulo}</h4>
-                          <p>{item.explicativo}</p>
-                          <a href={item.href}>
-                              <img src={item.src} alt={item.alt} class="img" />
-                          </a>
-                      </div>
-                  ))}
 
-              </div>
+//Usou um if e else no codigo ? se e o se nao :
+return (
+    <>
+        {/* Renderiza o título da linguagem com base na propriedade NomeLinguagem */}
+        <h1 className="NomeLinguagem">{props.NomeLinguagem}</h1>
+        <div className="carousel_container">
 
-          </div>
-      </> 
-    )
+            <div className='carousel'>
+                {/* Mapeia cada item no array 'items' */}
+                {items.map((item, index) => (
+                    // Verifica se o item possui todas as propriedades necessárias
+                    item.titulo && item.src && item.explicativo && item.href ? (
+                        // Renderiza um item do carrossel se todas as propriedades estiverem presentes
+                        <div key={index} className="carousel_item">
+                            <h4>{item.titulo}</h4> 
+                            <p>{item.explicativo}</p> 
+                            <a href={item.href}>
+                                <img src={item.src} alt={item.alt} className="img" /> 
+                            </a>
+                        </div>
+                    ) : null
+                    //se nao tiver o conteudo vai retornar null -- : null
+                ))}
+            </div>
+
+        </div>
+    </>
+)
+
 }
-
+ 
+ 

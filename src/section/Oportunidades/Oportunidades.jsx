@@ -9,9 +9,11 @@ export function Oportunidades(){
             <h5>Gmail - samuelsantanadasilva8@gmail.com</h5>
             <h5>Telefone - whatsapp (61) 9 9107-6831</h5>
             <a 
-                class="text-light" 
+                className="text-light" 
                 href="https://www.linkedin.com/in/samuelss10/" 
-                target="_blank">    Linkedin 
+                target="_blank" 
+                rel="noreferrer"
+            >    Linkedin 
             </a>
            
         </div>

@@ -2,7 +2,7 @@ import './BotaoAnimado.scss'
 
 export const BotaoAnimado = () => {
     return(
-        <button class="Button">
+        <button className="Button">
                       Contatos
         </button>   
     )

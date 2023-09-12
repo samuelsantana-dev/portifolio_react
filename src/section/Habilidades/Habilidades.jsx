@@ -4,8 +4,6 @@ import {
     DiHtml5,
     DiCss3,
     DiJsBadge,
-    DiNodejsSmall,
-    DiMysql,
     DiReact,
     DiBootstrap,
     DiTypo3,
@@ -13,7 +11,6 @@ import {
     DiGit,
     DiNpm,
     DiCelluloid,
-    DiCssdeck,
     DiCss3Full,
   } from "react-icons/di";
   
@@ -34,17 +31,17 @@ import {
 
 export const Habilidade = () => {
     return(
-        <section class="technologies-container">
+        <section className="technologies-container">
         
         <div id="Tecnologias">
           <h2 >Tecnologias</h2>
         </div>
-        <div class="technologies-grid">
+        <div className="technologies-grid">
     
           {technologies.map((tech) => (
-            <div class="technology-card" id={tech.id} key={tech.id}>
+            <div className="technology-card" id={tech.id} key={tech.id}>
               {tech.icon} 
-              <div class="technology-info">
+              <div className="technology-info">
                 <h3>{tech.name}</h3>
                 <p>{tech.text}</p>
               </div>

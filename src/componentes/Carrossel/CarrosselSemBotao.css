@@ -22,21 +22,28 @@
     flex: 1 1 100%;
   }
 
-  .img {
-    /*width: 18rem;
-    height: auto;
-    max-height: 100%;*/
-    width: 299px;
-    height: 168px;
-  }
+.img {
+  /* A propriedade max-width define a largura máxima do elemento. 
+     O valor de 100% garante que a imagem preencha completamente a largura do seu contêiner pai, 
+     mas não mais do que o tamanho original da imagem. */
+  max-width: 100%;
+
+  /* A propriedade height define a altura do elemento. 
+     O valor 'auto' mantém a proporção original da imagem enquanto ela é redimensionada. 
+     Isso evita que a imagem seja distorcida à medida que muda de tamanho. */
+  height: auto;
+}
+
 
   /* Media queries */
 @media (max-width:600px) {
   .carousel_item {
-      flex-basis: calc(100% - (3rem *2));
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   .img{
-    width: 200px;
-    height: 128px;
+    max-width: 100%;
+    height: auto;
   }
 }

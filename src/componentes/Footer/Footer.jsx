@@ -7,7 +7,7 @@ import {BotaoAnimado} from '../../componentes/Botoes/BotaoAnimado/BotaoAnimado'
 
 export function Footer(){
     return(
-        <footer class="text-white footer">
+        <footer className="text-white footer">
             <Container>
                 <Row>
             <Col>
@@ -19,9 +19,9 @@ export function Footer(){
             
             <p>Email: samuelsantanadasilva8@gmail.com</p>
             <p>Telefone: (61) 9 9107-6831</p>
-             <a href='https://www.linkedin.com/in/samuelss10/' target='blank' class='a'> Linkedin <FaLinkedin />  </a> 
-            <a href='https://www.instagram.com/samuelss77/' target='blank' class='a'> Instagram <FaInstagram /> </a>   
-             <a href='https://github.com/Samuel-Santana109' target='blank' class='a'> GitHub <FaGithub />  </a>  
+             <a href='https://www.linkedin.com/in/samuelss10/' target='blank' className='a'> Linkedin <FaLinkedin />  </a> 
+            <a href='https://www.instagram.com/samuelss77/' target='blank' className='a'> Instagram <FaInstagram /> </a>   
+             <a href='https://github.com/Samuel-Santana109' target='blank' className='a'> GitHub <FaGithub />  </a>  
             
           </Col>
         </Row>

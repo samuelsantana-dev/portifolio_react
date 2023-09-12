@@ -9,12 +9,12 @@ export function CarrosselKolinChatBoots(){
                   NomeLinguagem="Kotlin e ChatBoots"
 
                   titulo1="App de investimentos"
-                  explicativo1="App feito para demosntrar conhecimentos na linguagem kotlin"
+                  explicativo1="App feito  na linguagem kotlin"
                   href1="https://github.com/Samuel-Santana109/Investimento_android"
                   src1="https://cdn.pixabay.com/photo/2018/01/02/14/00/bitcoin-3056247_640.png"
   
                   titulo2="Tela de Login"
-                  explicativo2="App feito para demosntrar conhecimentos na linguagem kotlin"
+                  explicativo2="App feito na linguagem kotlin"
                   href2="https://github.com/Samuel-Santana109/TelaLogin"
                   src2="https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724245_640.jpg"
   
