@@ -7,10 +7,12 @@ import './SectionProjetos.scss'
 export function SectionProjetos(){
     return(
         <div  id="Projetos" className='sectionProjetos'>
-            <h1 className='titulo'>  Principais Projetos</h1>   
-            <CarrosselReact />
-           <CarrpsselJavascript />
-           <CarrosselKolinChatBoots />
+            <h1 className='titulo'>Principais Projetos</h1>   
+            <div>
+                <CarrosselReact />
+                <CarrpsselJavascript />
+                <CarrosselKolinChatBoots />
+            </div>
         </div>
     )
 }

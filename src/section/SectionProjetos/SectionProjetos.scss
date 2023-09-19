@@ -1,14 +1,32 @@
-.sectionProjetos{
-    height: 100vh;
-    margin-top: 5rem;
+/* Estilo da seção de projetos */
+.sectionProjetos {
+    background-color: #2c3e50;
+    color: white;
+
+    //height: 100vh;
     padding: 1rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.titulo{
+/* Estilo do título */
+.titulo {
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .sectionProjetos {
+        margin-top: 3rem; /* Reduz a margem superior em telas menores */
+        padding: 0.5rem; /* Reduz o espaçamento interno em telas menores */
+    }
+    
+    .titulo {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte do título em telas menores */
+        margin: 1rem; /* Reduz a margem do título em telas menores */
+    }
 }

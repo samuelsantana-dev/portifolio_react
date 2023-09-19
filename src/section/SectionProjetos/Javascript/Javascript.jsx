@@ -1,9 +1,9 @@
-import Style from './Javascript.module.css'
+
 import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
 
 export function CarrpsselJavascript(){
     return(
-        <div className={Style.Javascript}>   
+        <>   
 
             <CarrosselSemBotao 
                 NomeLinguagem="Javascript, Html e Css"
@@ -40,6 +40,6 @@ export function CarrpsselJavascript(){
                 src6="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=400"
             />
             
-        </div>
+        </>
     )
 }

@@ -16,11 +16,9 @@ const items = [
 
 //Usou um if e else no codigo ? se e o se nao :
 return (
-    <>
+    <section className='carousel_container'>
         {/* Renderiza o título da linguagem com base na propriedade NomeLinguagem */}
         <h1 className="NomeLinguagem">{props.NomeLinguagem}</h1>
-        <div className="carousel_container">
-
             <div className='carousel'>
                 {/* Mapeia cada item no array 'items' */}
                 {items.map((item, index) => (
@@ -29,7 +27,7 @@ return (
                         // Renderiza um item do carrossel se todas as propriedades estiverem presentes
                         <div key={index} className="carousel_item">
                             <h4>{item.titulo}</h4> 
-                            <p>{item.explicativo}</p> 
+                            <span>{item.explicativo}</span> 
                             <a href={item.href}>
                                 <img src={item.src} alt={item.alt} className="img" /> 
                             </a>
@@ -39,8 +37,7 @@ return (
                 ))}
             </div>
 
-        </div>
-    </>
+    </section>
 )
 
 }

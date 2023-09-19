@@ -1,69 +1,83 @@
 .sectionHabilidade {
-    height: 100vh;
-    margin-bottom: 5rem;
-
-    color: white;
-    background-color:#1F242D;
-
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
+  padding: 1rem;
+  color: white;
+  background-color: #1F242D;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .divPai {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .divPai .tecnologia_individual {
-    border: 1px solid transparent; /* Inicialmente, a borda é transparente */
-    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições suaves para várias propriedades */
-    transform-origin: center center; /* Define o ponto de origem da transformação como o centro */
-    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transform-origin: center center;
+  cursor: pointer;
 }
 
 .divPai .tecnologia_individual:hover {
-    border-color: #01EEFF; /* Cor da borda ao passar o mouse */
-    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Adiciona uma sombra suave ao passar o mouse */
+  border-color: #01EEFF;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-
-.tecnologia_individual{
-    width: 30rem;
-    height: 15rem;
-    padding: 1rem;
-    border: 1px solid #01EEFF;
-    background-color: #323946;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-     
+.tecnologia_individual {
+  width: 30rem;
+  min-height: 15rem; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo, sempre bom saber a diferença entre min, max e o tamanho padrao para responsividade*/
+  padding: 1rem;
+  border: 1px solid #01EEFF;
+  background-color: #323946;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .tecnologia_individual span {
-    font-size: 5rem;
-    color:  #01EEFF;
+  font-size: 5rem;
+  color: #01EEFF;
 }
 
 .tecnologia_individual h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .tecnologia_individual p {
-    font-size: 1rem;
+  font-size: 1.2rem;
 }
 
+/* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
-    .tecnologia_individual {
-      width: 90%;
-    }
+  .tecnologia_individual {
+    width: 90%;
+  }
+
+  .divPai {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 1rem;
+  }
+
+  .tecnologia_individual span {
+    font-size: 4rem;
+  }
+
+  .tecnologia_individual h3 {
+    font-size: 1.5rem;
+  }
+
+  .tecnologia_individual p {
+    font-size: 1.2rem;
+  }
 }
