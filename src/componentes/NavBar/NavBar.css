@@ -1,0 +1,17 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;700&display=swap');
+
+.NavBar {
+   height: 4rem;
+ }
+
+
+.link-css{
+   color: red;
+}
+
+ .nome{
+   background-color: blue;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+ }

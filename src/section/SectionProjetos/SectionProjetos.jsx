@@ -1,13 +1,13 @@
 import { CarrosselReact } from "./ReactJs/CarrosselReact"
 import { CarrpsselJavascript } from "./Javascript/Javascript"
 import { CarrosselKolinChatBoots } from "./KolinChatBoots/KolinChatBoots"
-import Style from './SectionProjetos.module.css'
+import './SectionProjetos.scss'
 
 
 export function SectionProjetos(){
     return(
-        <div  id="Projetos"  className={Style.Section}>
-            <h1 className={Style.titulo}>  Principais Projetos</h1>   
+        <div  id="Projetos" className='sectionProjetos'>
+            <h1 className='titulo'>  Principais Projetos</h1>   
             <CarrosselReact />
            <CarrpsselJavascript />
            <CarrosselKolinChatBoots />

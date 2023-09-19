@@ -14,7 +14,7 @@ export function Footer(){
               <h5>Desenvolvedor</h5>
               <p>Hoje sou desenvolvedor Front-end mas pretendo me tornar um full stack web e futuramente entrar para o mundo mobile</p>
             </Col>
-          <Col class="d-flex">
+          <Col className="d-flex">
             <BotaoAnimado />
             
             <p>Email: samuelsantanadasilva8@gmail.com</p>

@@ -1,39 +1,51 @@
-import Style from './Header.module.css'
+import './Header.scss'
 
-import { BotaoAnimado } from '../Botoes/BotaoAnimado/BotaoAnimado'
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+//import { BotaoAnimado } from '../Botoes/BotaoAnimado/BotaoAnimado'
+import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+
 import  Imagem  from '../../../src/assets/fotoAtualPessoal.png'
-
 
 export function Header(){
     return(
-        <div className={Style.Header}>   
-            <img 
-            src={Imagem}
-            alt='imagem de perfil' 
-            className={Style.img}
-            />
+        <div className="header">  
+            
+             <img  src={Imagem}  alt='imagem de perfil' className="img"/> 
 
-             <ul className={Style.Titulos}>
-              <h3> Samuel Santana da Silva </h3>
-              <li className="text-light"> Desenvolvedor front-end Junior </li>
-              <li className="text-light"> Desenvolvedor de ChatBoots </li>
-              <li className="text-light"> Desenvolvedor de Planilhas </li>
-             </ul>       
+            
+            <div className="divTitulos">
 
-            <BotaoAnimado />
+                <div>
+                    <h3 className="tituloTres"> Olá, meu nome é  </h3>
+                    <h1 className="tituloUm">Samuel Santana</h1>
+                    <h3 className="tituloTres"> Desenvolvedor: front-end Junior | ChatBoots | Planilhas </h3>
+                    <p className='paragrafo'>Estou no 4º Semestre de analise e desenvolvimento de sistemas e também estudo sobre Front-end, focado no desenvolvimento Web</p>
+                </div>       
 
-            <div className={Style.Links}>
-                <a href="https://www.linkedin.com/in/samuelss10/" target="_blank" rel="noreferrer">
-                    <FaLinkedin />
-                </a>
-                <a href="https://www.instagram.com/samuelss77/" target="_blank" rel="noreferrer">
-                      <FaInstagram />
-                </a>
-                <a href="https://github.com/Samuel-Santana109" target="_blank" rel="noreferrer">
-                    <FaGithub />
-                </a>
+                <div>    
+                    <a href="https://www.linkedin.com/in/samuelss10/" target="_blank" className='links' rel="noreferrer">
+                                        <FaLinkedin />
+                    </a>
+                    <a href="https://www.instagram.com/samuelss77/" target="_blank" className='links' rel="noreferrer">
+                                    <FaInstagram />
+                    </a>
+                    <a href="https://github.com/Samuel-Santana109" target="_blank" className='links' rel="noreferrer">
+                                    <FaGithub />
+                    </a>
+                    <a href="#" target="_blank" className='links' rel="noreferrer">
+                                    <FaWhatsapp />
+                    </a>
+                </div>
+
+                <span>
+                    <a href="CurriculoS.pdf" className="button" rel="noreferrer" download>
+                        Download Curriculo
+                    </a>
+                  
+                </span>
+
+
             </div>
+
         </div>
     )
 }

@@ -1,19 +1,22 @@
 .div{
-    background-color: #2c3e50;
-    color: aliceblue;
+    height: 100vh;
+    background-color:#1F242D;
+    //background-color: #080e14;
+    color: white;
 
     padding: 1rem;
-    height: 100%;
+
     
+    font-size: 1rem;
     text-align: center;
-    font-size: 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
 }
 
-
+.negrito{
+    font-weight: bolder;
+}

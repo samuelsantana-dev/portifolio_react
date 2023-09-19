@@ -1,4 +1,4 @@
-import '../../styles/Habilidades.sass'
+import './Habilidades.scss'
 
 import {
     DiHtml5,
@@ -15,40 +15,39 @@ import {
   } from "react-icons/di";
   
   const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "HTML 5" },
-    { id: "css", name: "CSS3", icon: <DiCss3 />, text: "CSS 3 " },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "JavaScript" },
-    { id: "react", name: "React", icon: <DiReact />, text: "React" },
-    { id: "bootstrap", name: "Bootstrap 5", icon: <DiBootstrap />, text: "Bootstrap"},
-    { id: "typescript", name: "Typscript", icon: <DiTypo3 />, text: "Typscript"}, 
-    { id: "sassless", name: "Sass e Less", icon: <DiSass />, text: "Sass e Less" },
-    { id: "git", name: "Git e github",icon: <DiGit />, text: "Git e github" },
-    { id: "npxnpm", name: "Npx e Npm", icon: <DiNpm />, text: "Npx e Npm" },
-    { id: "dialogflow", name: "Dialogflow", icon: <DiCelluloid />, text: "Dialogflow" },
-    { id: "tailwindui", name: "tailwindui", icon: <DiCss3Full />, text: "tailwindui" }
-  ];
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "Linguagem de Marcação para Estruturação de Conteúdo Web" },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, text: "Linguagem de Estilização para Design de Páginas Web" },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Linguagem de Programação para Desenvolvimento Web Interativo" },
+    { id: "react", name: "React", icon: <DiReact />, text: "Biblioteca JavaScript para Construção de Interfaces de Usuário" },
+    { id: "bootstrap", name: "Bootstrap 5", icon: <DiBootstrap />, text: "Framework CSS para Desenvolvimento Web Responsivo" },
+    { id: "typescript", name: "TypeScript", icon: <DiTypo3 />, text: "Superset do JavaScript com Tipagem Estática" },
+    { id: "sassless", name: "Sass e Less", icon: <DiSass />, text: "Pré-processadores CSS para Estilização Avançada" },
+    { id: "git", name: "Git e GitHub",icon: <DiGit />, text: "Sistema de Controle de Versão e Plataforma de Colaboração de Código" },
+    { id: "npxnpm", name: "Npx e Npm", icon: <DiNpm />, text: "Gerenciadores de Pacotes para Projetos JavaScript" },
+    { id: "dialogflow", name: "Dialogflow", icon: <DiCelluloid />, text: "Plataforma de Desenvolvimento de Chatbots e Assistentes Virtuais" },
+    { id: "tailwindui", name: "Tailwind CSS", icon: <DiCss3Full />, text: "Framework CSS Utilizado para o Desenvolvimento Web" }
+];
+
   
 
 export const Habilidade = () => {
     return(
-        <section className="technologies-container">
+        <section className="sectionHabilidade">
         
-        <div id="Tecnologias">
-          <h2 >Tecnologias</h2>
-        </div>
-        <div className="technologies-grid">
-    
-          {technologies.map((tech) => (
-            <div className="technology-card" id={tech.id} key={tech.id}>
-              {tech.icon} 
-              <div className="technology-info">
-                <h3>{tech.name}</h3>
-                <p>{tech.text}</p>
+          <div id="Tecnologias">
+            <h1>Tecnologias Ultilizadas</h1>
+          </div>
+
+          <div className="divPai">
+            {technologies.map((tech) => (
+              <div className="tecnologia_individual" id={tech.id} key={tech.id}>
+                  <span className='icone'>{tech.icon}</span>
+                  <h3>{tech.name}</h3>
+                  <p>{tech.text}</p>
               </div>
-            </div>
-          ))}
-    
-        </div>
+            ))}
+      
+          </div>
       </section>
     )
 
