@@ -25,7 +25,7 @@
 }
 
 .divTitulos{
-    margin: 5rem;
+    margin: 3rem;
 }
 
 .tituloTres{
@@ -50,8 +50,10 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    max-width: 3rem;
+    max-height: 3rem;
     background: transparent;
     border: 0.2rem solid #01EEFF;
     border-radius: 50%;

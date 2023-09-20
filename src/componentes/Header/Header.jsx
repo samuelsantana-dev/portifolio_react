@@ -1,4 +1,5 @@
 import './Header.scss'
+import { TextAutomatico } from './textoAutomatico';
 
 //import { BotaoAnimado } from '../Botoes/BotaoAnimado/BotaoAnimado'
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
@@ -17,7 +18,7 @@ export function Header(){
                 <div>
                     <h3 className="tituloTres"> Olá, meu nome é  </h3>
                     <h1 className="tituloUm">Samuel Santana</h1>
-                    <h3 className="tituloTres"> Desenvolvedor: front-end Junior | ChatBoots | Planilhas </h3>
+                    <h3 className="tituloTres"> Desenvolvedor: {<TextAutomatico />}</h3>
                     <p className='paragrafo'>Estou no 4º Semestre de analise e desenvolvimento de sistemas e também estudo sobre Front-end, focado no desenvolvimento Web</p>
                 </div>       
 

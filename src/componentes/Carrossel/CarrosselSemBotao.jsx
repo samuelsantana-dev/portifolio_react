@@ -27,7 +27,7 @@ return (
                         // Renderiza um item do carrossel se todas as propriedades estiverem presentes
                         <div key={index} className="carousel_item">
                             <h4>{item.titulo}</h4> 
-                            <span>{item.explicativo}</span> 
+                            <p>{item.explicativo}</p> 
                             <a href={item.href}>
                                 <img src={item.src} alt={item.alt} className="img" /> 
                             </a>
