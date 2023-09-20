@@ -4,7 +4,7 @@ import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBo
 
 export function CarrosselKolinChatBoots(){
     return(
-        <>
+        <div>
             <CarrosselSemBotao 
                   NomeLinguagem="Kotlin e ChatBoots"
 
@@ -30,6 +30,6 @@ export function CarrosselKolinChatBoots(){
             
             
             />
-        </>
+        </div>
     )
 }

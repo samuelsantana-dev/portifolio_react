@@ -1,66 +1,93 @@
+
 .NomeLinguagem{
   margin: 1rem;
 }
 
 .carousel_container {
     width: 100%;
-    margin: 1rem;
-
-   
-  }
+}
   
 .carousel {
-    margin: auto;
-    max-width: 100%;
+ 
+ 
+   
+
+      width: calc(100% * 4); /* Ajuste o valor 4 para corresponder ao número de divs que você deseja mostrar antes da barra de rolagem aparecer */
+      overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o conteúdo ultrapassar a largura */
+      white-space: nowrap; /* Impede que as divs quebrem para a próxima linha */
     
-    /*Aqui controla a barra de navegaçao*/
-    transition: transform 0.3s ease-in-out;
-     /*Aqui controla a barra de navegaçao*/
-     overflow: auto;
-  
-    display: flex;
-    align-items: center;
-    gap: -20px;
+      display: flex;
+      align-items: center;
+      background-color: red;
+      height: 25rem;
+    
   }
+
+  
   
 .carousel_item {
-  min-width: 15rem;
-  min-height: 15rem; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo, sempre bom saber a diferença entre min, max e o tamanho padrao para responsividade*/
-  max-width: 25rem;
-  max-height: 25rem;
-  
-  padding: 1rem;
-  margin: 1rem;
-  border: 1px solid #01EEFF;
-  background-color: #323946;
-  border-radius: 20px;
-  text-align: center;
 
-  display: flex;
-  flex-direction: column;
+    width: 20%;
+    margin: 2rem;
+    position: relative; /* Define o contexto de posicionamento para elementos filhos */
+    border-radius: 2rem; /* Adiciona cantos arredondados */
+    overflow: hidden; /* Esconde o conteúdo que se estende além dos limites */
+    display: flex; /* Define o modelo de exibição para flexbox */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição para a escala */
+ }
+ 
+ .carousel_item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ }
+ 
+ .carousel_item .carousel_textos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0, .1), black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+ }
+ 
+ /*.carousel_item:hover {
+    transform: scale(1); /* Aumenta o tamanho do contêiner ao passar o mouse /
+ }*/
+ /////////////////////////////
+ .carousel_item:hover .carousel_textos {
+    transform: translateY(0); /* Move o texto para cima ao passar o mouse */
+ }
+  
+.carousel_textos h4 {
+  font-size: 2rem;
+}
+
+.carousel_textos > p {
+  font-size: 1rem;
+  margin: .3rem 0 1rem;
+}
+
+.carousel_textos a {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 0.4rem;
-  }
-  
-  .carousel_item h4{
-    font-size: 2rem;
-  }
 
-  .carousel_item span{
-    font-size: 1rem;
-   
-  }
+  max-width: 10rem;
+  max-height: 10rem;
+  background: black;
+  border-radius: 50%;
+}
 
-  .carousel_item a{
-    font-size: 1.2rem;
-  }
-
-  .img {
-    max-width: 80%;
-    max-height: 50%;
-  }
-  
 
 
   /* Media queries */

@@ -1,11 +1,12 @@
+@import '../../styles/padroes.scss';
+
 .div{
     height: 100vh;
-    background-color:#1F242D;
-    color: white;
+    background-color:$corDeFundoCinza;
+    color: $corTitulos;
 
     padding: 3rem;
 
-    font-size: 1rem;
     text-align: center;
 
     display: flex;
@@ -13,6 +14,20 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+
+.divTextos > h1{
+    font-size: $tamanhoLetrasTitulosUm;
+}
+
+.divTextos > h3{
+    font-size: $tamanhoLetrasTitulosTres;
+}
+
+.divTextos > p{
+    color: $corParagrafos;
+    font-size: $tamanhoLetrasParagrafos;
 }
 
 .negrito{
