@@ -1,4 +1,5 @@
 import  { useEffect, useRef } from 'react';
+//Essencialmente, useRef é como uma “caixa” que pode conter um valor mutável em sua propriedade . current . Você pode estar familiarizado com os refs principalmente como uma forma de acessar o DOM. Se você passar um objeto ref para React com <div ref = {myRef} /> , React definirá sua propriedade .
 import Typed from 'typed.js';
 
 export function TextAutomatico() {

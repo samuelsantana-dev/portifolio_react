@@ -15,7 +15,7 @@ export function NavBar() {
       <Container>
 
         {/* Define o logotipo ou título da barra de navegação com um link para a âncora "#home". Também aplica classes de estilo "nome" e "h1". */}
-        <Navbar.Brand href="#home" className='nome'>Samuel Santana da Silva</Navbar.Brand>
+        <Navbar.Brand href="#home" className='nome '>SAMUEL SANTANA</Navbar.Brand>
 
         {/* Adiciona um botão de alternância (hamburguer) para telas pequenas. */}
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -26,6 +26,7 @@ export function NavBar() {
           {/* Define uma lista de links de navegação à direita (ms-auto). */}
           <Nav className="ms-auto">
             {/* Cada link de navegação é um componente `Nav.Link` que possui um link para uma âncora correspondente. */}
+            <Nav.Link href="#" className="text-light">Inicio</Nav.Link>
             <Nav.Link href="#SobreMim" className="text-light">Sobre Mim</Nav.Link>
             <Nav.Link href="#Projetos" className="text-light">Projetos</Nav.Link>
             <Nav.Link href="#Oportunidades" className="text-light">Oportunidades</Nav.Link>
