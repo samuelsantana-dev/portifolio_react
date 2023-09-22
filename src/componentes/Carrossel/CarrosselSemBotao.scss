@@ -1,104 +1,66 @@
+@import '../../styles/padroes.scss';
 
-.NomeLinguagem{
-  margin: 1rem;
-}
 
 .carousel_container {
-    width: 100%;
-}
-  
-.carousel {
- 
- 
-   
-
-      width: calc(100% * 4); /* Ajuste o valor 4 para corresponder ao número de divs que você deseja mostrar antes da barra de rolagem aparecer */
-      overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o conteúdo ultrapassar a largura */
-      white-space: nowrap; /* Impede que as divs quebrem para a próxima linha */
-    
-      display: flex;
-      align-items: center;
-      background-color: red;
-      height: 25rem;
-    
-  }
-
-  
-  
-.carousel_item {
-
-    width: 20%;
-    margin: 2rem;
-    position: relative; /* Define o contexto de posicionamento para elementos filhos */
-    border-radius: 2rem; /* Adiciona cantos arredondados */
-    overflow: hidden; /* Esconde o conteúdo que se estende além dos limites */
-    display: flex; /* Define o modelo de exibição para flexbox */
-    transition: transform 0.3s ease-in-out; /* Adiciona uma transição para a escala */
- }
- 
- .carousel_item img {
-  height: 100%;
+  margin: auto;
   width: 100%;
-  object-fit: cover;
- }
- 
- .carousel_item .carousel_textos {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0, .1), black);
+  /*Aqui controla a barra de navegaçao*/
+  overflow: auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 4rem;
-    transform: translateY(100%);
-    transition: .5s ease;
- }
- 
- /*.carousel_item:hover {
-    transform: scale(1); /* Aumenta o tamanho do contêiner ao passar o mouse /
- }*/
- /////////////////////////////
- .carousel_item:hover .carousel_textos {
-    transform: translateY(0); /* Move o texto para cima ao passar o mouse */
- }
+}
+
+.carousel {
+  margin: 1rem;
+  width: 100%;
   
-.carousel_textos h4 {
+  /*Aqui controla a barra de navegaçao*/
+  transition: transform 0.3s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.carousel_item {
+  flex: 1 1 100%;
+  text-align: center;
+ 
+  padding: 0.6rem;
+  border: 1px solid #01EEFF;
+  background-color: #323946;
+  border-radius: 20px;
+
+}
+
+.carousel_item:hover {
+  border-color: #0e686e;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px $corPadraoAzul;
+}
+
+.carousel_item h4{
   font-size: 2rem;
 }
 
-.carousel_textos > p {
-  font-size: 1rem;
-  margin: .3rem 0 1rem;
+.carousel_item span{
+  font-size: 1.3rem;
 }
 
-.carousel_textos a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  max-width: 10rem;
-  max-height: 10rem;
-  background: black;
-  border-radius: 50%;
+.img {
+  /*width: 18rem;
+  height: auto;
+  max-height: 100%;*/
+  width: 299px;
+  height: 168px;
 }
 
-
-
-  /* Media queries */
+/* Media queries */
 @media (max-width:600px) {
-  .carousel_item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .img{
-    max-width: 100%;
-    height: auto;
-  }
+.carousel_item {
+    flex-basis: calc(100% - (3rem *2));
+}
+.img{
+  width: 200px;
+  height: 128px;
+}
 }

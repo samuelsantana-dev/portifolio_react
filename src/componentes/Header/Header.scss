@@ -4,7 +4,6 @@
     background-color: $corDeFundoAzul;
     color: $corParagrafos;
 
-    margin-top: 4rem;
     height: 100vh;
 
     display: flex;
@@ -19,7 +18,7 @@
     margin: 3rem;
     transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transições suaves para transformações e sombras */
 }
-  
+
   /* Estilo de imagem quando o mouse passa por cima (hover) */
 .img:hover {
     transform: scale(1.1); /* Aumenta um pouco o tamanho da imagem */
@@ -102,7 +101,8 @@
     }
 
     .img {
-        width: 80%;
+        width: 100%; /* Ajuste a largura para preencher a largura da tela */
+        max-width: 80vw; /* Limita a largura máxima em 80vw */
         margin: 2rem 0;
     }
 

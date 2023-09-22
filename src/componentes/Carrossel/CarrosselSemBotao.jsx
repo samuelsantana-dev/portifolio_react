@@ -18,28 +18,29 @@ const items = [
 
 //Usou um if e else no codigo ? se e o se nao :
 return (
-    <section className='carousel_container'>
+    <section >
         {/* Renderiza o título da linguagem com base na propriedade NomeLinguagem */}
         <h1 className="NomeLinguagem">{props.NomeLinguagem}</h1>
-            <div className='carousel'>
-                {/* Mapeia cada item no array 'items' */}
-                {items.map((item, index) => (
-                    // Verifica se o item possui todas as propriedades necessárias
-                    item.titulo && item.src && item.explicativo && item.href ? (
-                        // Renderiza um item do carrossel se todas as propriedades estiverem presentes
-                        <div key={index} className="carousel_item">
-                            <img src={item.src}  />
-                            <div className="carousel_textos">
-                                <h4>{item.titulo}</h4>
-                                <p>{item.explicativo}</p>
-                                <a href={item.href}> PA
-                                </a>
-                            </div>
-                        </div>
-                    ) : null
-                    //se nao tiver o conteudo vai retornar null -- : null
-                ))}
-            </div>
+     
+                <div className='carousel_container'>
+                    {/* Mapeia cada item no array 'items' */}
+                    <div className='carousel'>
+                        {items.map((item, index) => (
+                            // Verifica se o item possui todas as propriedades necessárias
+                            item.titulo && item.src && item.explicativo && item.href ? (
+                                // Renderiza um item do carrossel se todas as propriedades estiverem presentes
+                                <div key={index} className="carousel_item">
+                                        <h4>{item.titulo}</h4>
+                                        <span>{item.explicativo}</span>
+                                        <a href={item.link}>
+                                            <img src={item.src} alt={item.alt} className="img" />
+                                        </a>
+                                </div>
+                            ) : null
+                            //se nao tiver o conteudo vai retornar null -- : null
+                        ))}
+                    </div>
+                </div>
 
     </section>
 )

@@ -34,10 +34,7 @@ export function CarrosselJavascript(){
                 src5="https://cdn.pixabay.com/photo/2016/08/17/04/41/template-1599665_640.png"
 
                 
-                titulo6="Estudos"
-                explicativo6="Aqui estao todos os meus estudos de tecnologias"
-                href6="https://github.com/Samuel-Santana109/estudos"
-                src6="https://cdn.pixabay.com/photo/2016/08/17/04/41/template-1599665_640.png"
+          
             />
             
         </>
