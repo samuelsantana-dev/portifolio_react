@@ -2,7 +2,6 @@ import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBo
 
 export function CarrosselReact(){
     return(
-        <div>   
 
             <CarrosselSemBotao 
                 NomeLinguagem="React js"
@@ -34,6 +33,5 @@ export function CarrosselReact(){
             />
             
             
-        </div>
     )
 }

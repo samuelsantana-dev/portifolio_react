@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box; /* Adicione esta linha para o modelo de caixa border-box */
-  
 }

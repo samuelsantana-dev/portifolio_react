@@ -1,19 +1,22 @@
 @import '../../styles/padroes.scss';
 
+.sectionHabilidade {
+    min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
+    padding: 1rem;
+    color: white;
+    background-color: $corDeFundoCinza;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
 .divOportunidades {
-    background-color: $corDeFundoCinza;
-    color: $corDeFundoWhite;
-    padding: 1rem;
-    height: 100vh;
-    text-align: center;
-  
-
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .divOportunidades h2{
@@ -36,25 +39,10 @@
 /* Responsividade para dispositivos móveis */
 @media screen and (max-width: 767px) {
     #divOportunidades {
-        flex-direction: column; /* Empilhar os elementos verticalmente */
         flex-wrap: wrap;
-        justify-content: space-around;
-
-        font-size: 18px; /* Ajustar o tamanho da fonte */
-
     }
 }
 
-/* Responsividade para tablets e telas menores */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .divOportunidades {
-        font-size: 18px; /* Ajustar o tamanho da fonte */
-    }
 
-    .divOportunidades img{
-        width: 100%; 
-        height: 100%;
-    }
-}
 
 

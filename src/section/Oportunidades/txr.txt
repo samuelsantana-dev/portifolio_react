@@ -2,8 +2,8 @@ import  './Oportunidades.scss'
 
 export function Oportunidades(){
     return(
-        <section className="sectionHabilidade">
-          <div id="Oportunidades" className="divOportunidades" >
+        
+        <div id="Oportunidades" className="divOportunidades" >
            
             <div>
                 <h2>DISPONIVEL PARA OPORTUNIDADES</h2>
@@ -17,13 +17,11 @@ export function Oportunidades(){
                 >    Linkedin
                 </a>
             </div>
-            
-                <div>
+           
+           <div>
                 <img src="https://eopablo.github.io/pablocavalcante/images/programming.svg" alt="Imagem de alguem estudando" className='imagem'/>
-                </div>
-            </div>
-      </section>
-      
+           </div>
+        </div>
     
     )
 }

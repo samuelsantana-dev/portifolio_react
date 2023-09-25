@@ -8,12 +8,12 @@ export function Footer(){
         <footer className="text-white footer">
           <div>
             <h1>Desenvolvedor</h1>
-            <h4>Hoje sou desenvolvedor Front-end mas pretendo me tornar um full stack web e futuramente entrar para o mundo mobile</h4>
+            <p>Hoje sou desenvolvedor Front-end mas pretendo me tornar um full stack web e futuramente entrar para o mundo mobile</p>
           </div>
         
           <div>    
-                <h5>Email: samuelsantanadasilva8@gmail.com</h5>
-                <h5>Telefone: (61) 9 9107-6831</h5>
+                <p>Email: samuelsantanadasilva8@gmail.com</p>
+                <p>Telefone: (61) 9 9107-6831</p>
                   <a href="https://www.linkedin.com/in/samuelss10/" target="_blank" className='links' rel="noreferrer">
                                       <FaLinkedin />
                   </a>
@@ -27,11 +27,11 @@ export function Footer(){
                                   <FaWhatsapp />
                   </a>
           </div>  
-
+    
               <hr />
-              <h5 className="text-center">© {new Date().getFullYear()} Desenvolvedor Front-End Junior</h5>
-              <h5 className="text-center">© {new Date().getFullYear()} Desenvolvedor de Planilhas </h5>
-              <h5 className="text-center">© {new Date().getFullYear()} Desenvolvedor de ChatBoots</h5>
+              <p className="text-center">© {new Date().getFullYear()} Desenvolvedor Front-End Junior</p>
+              <p className="text-center">© {new Date().getFullYear()} Desenvolvedor de Planilhas </p>
+              <p className="text-center">© {new Date().getFullYear()} Desenvolvedor de ChatBoots</p>
           
         </footer>
     )

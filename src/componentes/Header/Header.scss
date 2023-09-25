@@ -4,7 +4,7 @@
     background-color: $corDeFundoAzul;
     color: $corParagrafos;
 
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -12,10 +12,10 @@
 }
 
 .img{
-    width: 30vw;
-    border-radius: 4px; /* Cantos arredondados opcionais */
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 4px; 
 
-    margin: 3rem;
     transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transições suaves para transformações e sombras */
 }
 
@@ -23,10 +23,6 @@
 .img:hover {
     transform: scale(1.1); /* Aumenta um pouco o tamanho da imagem */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra sutil */
-}
-
-.divTitulos{
-    margin: 3rem;
 }
 
 .tituloTres{
@@ -92,26 +88,18 @@
 
 
 /* Responsividade para dispositivos móveis */
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 768px) {
     .header {
-        padding: 2rem;
-        height: auto;
+        margin: auto;
+        padding: 1rem;
+        gap: 1rem;
         flex-direction: column;
         text-align: center;
     }
 
-    .img {
-        width: 100%; /* Ajuste a largura para preencher a largura da tela */
-        max-width: 80vw; /* Limita a largura máxima em 80vw */
-        margin: 2rem 0;
-    }
-
-    .divTitulos {
-        margin: 2rem 0;
-    }
-
+    
     .tituloUm {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .tituloTres {
@@ -123,10 +111,10 @@
     }
 
     .links {
-        width: 3rem;
-        height: 3rem;
-        font-size: 1.5rem;
-        margin: 1.5rem 1rem;
+        max-width: 3rem;
+        max-height: 3rem;
+        font-size: 1rem;
+       
     }
 
     .btn {

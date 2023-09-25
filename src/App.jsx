@@ -10,7 +10,7 @@ import './App.scss'
 function App() {
 
   return (
-    <div className='divApp'>
+   <div>
       <NavBar  />
       <Header />
       <SobreMim /> 
@@ -18,7 +18,7 @@ function App() {
       <Habilidade />
       <SectionProjetos />
       <Footer />
-    </div>
+      </div>
   )
 }
 

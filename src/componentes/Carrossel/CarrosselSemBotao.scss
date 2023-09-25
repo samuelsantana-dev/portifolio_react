@@ -4,6 +4,7 @@
 .carousel_container {
   margin: auto;
   width: 100%;
+
   /*Aqui controla a barra de navegaçao*/
   overflow: auto;
 
@@ -22,7 +23,8 @@
 }
 
 .carousel_item {
-  flex: 1 1 100%;
+   flex: 1 1 100%;
+  /* flex-grow: 1; flex-shrink: 1; flex-basis: 100%; */
   text-align: center;
  
   padding: 0.6rem;

@@ -3,13 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavBar.css'
 
-// Importa o componente `NavBar` da biblioteca React.
 export function NavBar() {
   return (
-    // Começa a definição da barra de navegação usando o componente `Navbar` da biblioteca React-Bootstrap.
 
     // Define a cor de fundo da barra de navegação como "dark" e expandível para telas grandes (lg) com um tema escuro (variant="dark").
-    <Navbar bg="dark" expand="lg" variant="dark" className='NavBar text-light fixed-top'>
+    <Navbar bg="dark" expand="lg" variant="dark" className='NavBar text-light '>
       
       {/* Utiliza um componente `Container` para envolver o conteúdo da barra de navegação. */}
       <Container>
