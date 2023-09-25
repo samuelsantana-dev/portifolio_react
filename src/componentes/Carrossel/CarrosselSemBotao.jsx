@@ -18,9 +18,9 @@ const items = [
 
 //Usou um if e else no codigo ? se e o se nao :
 return (
-    <section >
+    < >
         {/* Renderiza o título da linguagem com base na propriedade NomeLinguagem */}
-        <h1 className="NomeLinguagem">{props.NomeLinguagem}</h1>
+        <h2 className="NomeLinguagem">{props.NomeLinguagem}</h2>
      
                 <div className='carousel_container'>
                     {/* Mapeia cada item no array 'items' */}
@@ -33,7 +33,7 @@ return (
                                         <h4>{item.titulo}</h4>
                                         <span>{item.explicativo}</span>
                                         <a href={item.link}>
-                                            <img src={item.src} alt={item.alt} className="img" />
+                                            <img src={item.src} alt={item.alt} className="imgC" />
                                         </a>
                                 </div>
                             ) : null
@@ -42,7 +42,7 @@ return (
                     </div>
                 </div>
 
-    </section>
+    </>
 )
 
 }
