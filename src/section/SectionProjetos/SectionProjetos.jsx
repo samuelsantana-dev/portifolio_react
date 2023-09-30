@@ -9,9 +9,9 @@ export function SectionProjetos(){
         <div  id="Projetos" className='sectionProjetos'>
             <h1 className='titulo'>Principais Projetos</h1>   
  
-                <div><CarrosselReact /></div>
-                <div><CarrosselJavascript /></div>
-                <div><CarrosselKolinChatBoots /></div>
+                <CarrosselReact />
+                <CarrosselJavascript />
+                <CarrosselKolinChatBoots />
      
         </div>
     )
