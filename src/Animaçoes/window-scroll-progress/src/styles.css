@@ -1,0 +1,23 @@
+
+.progress-wheel {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  transform: rotate(-90deg);
+}
+
+.progress-wheel circle {
+  stroke-dashoffset: 0;
+  stroke-width: 30%;
+  fill: none;
+}
+
+.progress-wheel .bg {
+  stroke: red;
+  opacity: 0.2;
+}
+
+.progress-wheel .progress {
+  stroke: red;
+  stroke-dasharray: 0, 1;
+}

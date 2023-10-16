@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.sectionHabilidade {
+  min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
+  padding: 1rem;
+  color: white;
+  background-color: #1F242D;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.divPai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.divTextos > h1 {
+  font-size: 2rem;
+}
+
+.divTextos > h3 {
+  font-size: 1.5rem;
+}
+
+.divTextos > p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.negrito {
+  font-weight: bolder;
+}
+
+.imagemSobreMim {
+  max-width: 100%; /* Reduz a largura máxima da imagem para 80% em telas menores */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .tecnologia_individual {
+    width: 90%;
+  }
+  .divPai {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+}/*# sourceMappingURL=SobreMim.css.map */

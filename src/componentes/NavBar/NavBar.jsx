@@ -1,3 +1,4 @@
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,7 +14,7 @@ export function NavBar() {
       <Container>
 
         {/* Define o logotipo ou título da barra de navegação com um link para a âncora "#home". Também aplica classes de estilo "nome" e "h1". */}
-        <Navbar.Brand href="#home" className='nome '>SAMUEL SANTANA</Navbar.Brand>
+        <Navbar.Brand href="#home" className='nome'>SAMUEL SANTANA</Navbar.Brand>
 
         {/* Adiciona um botão de alternância (hamburguer) para telas pequenas. */}
         <Navbar.Toggle aria-controls="navbar-nav" />
