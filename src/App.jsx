@@ -16,21 +16,24 @@ import { motion } from "framer-motion";
 function App() {
 
   return (
+    <>
+    <NavBar />
+    <Header /> 
+    
     <motion.div
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 1 }}
    >
-    <NavBar />
-  
+       <SobreMim /> 
+    </motion.div>
 
-    <Header /> 
-    <SobreMim /> 
+  
     <Oportunidades />
     <Habilidade />
     <SectionProjetos />
     <Footer />
-  </motion.div>
+    </>
   )
 } 
 

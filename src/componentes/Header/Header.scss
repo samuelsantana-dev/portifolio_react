@@ -13,13 +13,8 @@
 
 .img{
     margin: 2rem;
-    height:80%;
-    display:block;
-    width: 70%;
-    max-height: 100%;
-    max-width: 100%;
     border-radius: 4px; 
-
+    display:block;
     transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transições suaves para transformações e sombras */
 }
 
@@ -94,13 +89,19 @@
 /* Responsividade para dispositivos móveis */
 @media screen and (max-width: 768px) {
     .header {
-        margin: auto;
         padding: 1rem;
-        gap: 1rem;
-        flex-direction: column;
+        gap: 2rem;
         text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    .divImagem{
+        margin: auto;
+    }
     
     .tituloUm {
         font-size: 2rem;

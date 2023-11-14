@@ -1,11 +1,11 @@
 import './Header.scss'
 import { TextAutomatico } from './textoAutomatico';
 import { motion } from "framer-motion";
-
+import { Image,Col } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import link from '../Botoes/Links/Links';
 
-import  Imagem  from '../../../src/assets/fotoAtualPessoal.png'
+import  Imagem  from '../../../src/assets/fotosPessoais.png'
 
 export function Header(){
     return(
@@ -13,12 +13,10 @@ export function Header(){
             
           
 
-             <div>
-                <img  
-                src={Imagem}  
-                alt='imagem de perfil' 
-                className="img"
-                /> 
+             <div className='divImagem'>
+                 <Col className="m-auto" xs={10} md={12}>
+                    <Image src={Imagem} className='img'  alt='imagem de perfil'  />
+                 </Col>
              </div>
 
             

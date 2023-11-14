@@ -19,6 +19,9 @@
     gap: 3rem;
 }
 
+.divTextos{
+  display: flex;
+}
 
 .divTextos > h1{
     font-size: $tamanhoLetrasTitulosUm;
@@ -53,6 +56,9 @@
       margin: 1rem;
     }
   
- 
+    .divTextos{
+      display: flex;
+      flex-direction: column;
+    }
   }
   

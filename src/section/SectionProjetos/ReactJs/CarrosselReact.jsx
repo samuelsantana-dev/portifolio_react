@@ -22,9 +22,9 @@ export function CarrosselReact(){
                 href2="https://github.com/Samuel-Santana109/estudos/tree/master/react/rocket_seat/ignite-time"
                 src2="https://media.istockphoto.com/id/1347677777/pt/foto/closeup-of-computer-programming-typing-on-laptop.webp?b=1&s=612x612&w=0&k=20&c=kOpomddBvDVN-8etpnqpN4DCaKUnKj811QY2pAkzITg="
 
-                titulo3="Site Vendas"
-                explicativo3="Site de vendas criado para uso proprio profissional"
-                href3="https://github.com/Samuel-Santana109/site_vendas"
+                titulo3="Tech World"
+                explicativo3="Site onde mostro meus serviços profissionais"
+                href3="https://github.com/Samuel-Santana109/tech_world"
                 src3="https://cdn.pixabay.com/photo/2016/08/17/04/41/template-1599665_640.png"
 
                 titulo4="Leanding Page"
@@ -39,7 +39,7 @@ export function CarrosselReact(){
 
                 titulo6="Countdown"
                 explicativo6="Site em countdown"
-                href6="https://github.com/Samuel-Santana109/countdown/tree/master"
+                href6="https://github.com/Samuel-Santana109/countdown"
                 src6={ImagemReact}
 
                 titulo7="Estudos"
