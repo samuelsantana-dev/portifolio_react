@@ -11,28 +11,30 @@ import { Footer } from './componentes/Footer/Footer'
 
 import './App.scss'
 import { motion } from "framer-motion";
+// No início do seu arquivo onde você importa outros módulos
+
 
 
 function App() {
 
   return (
     <>
-    <NavBar />
-    <Header /> 
-    
-    <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 1 }}
-   >
-       <SobreMim /> 
-    </motion.div>
+      <NavBar />
+      <Header /> 
+      
+          <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <SobreMim id="sobreMim" />
+        </motion.div>
 
-  
-    <Oportunidades />
-    <Habilidade />
-    <SectionProjetos />
-    <Footer />
+      <Oportunidades id="oportunidades" />
+      <Habilidade id="habilidade" />
+      <SectionProjetos id="projetos" />
+      <Footer />
+
     </>
   )
 } 
