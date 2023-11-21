@@ -63,7 +63,7 @@ export function Header(){
                     </div>
 
                     <span>
-                        <a href="CurriculoS.pdf" className="button" rel="noreferrer" download>
+                        <a href="curriculoSamuel2023.pdf" className="button" rel="noreferrer" download>
                             Download Curriculo
                         </a>
                     </span>
