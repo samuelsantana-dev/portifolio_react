@@ -3,19 +3,19 @@
 .header{
     background-color: $corDeFundoAzul;
     color: $corParagrafos;
-
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.divImagem{
+   margin: auto;
+   justify-content: center;
+}
+
 .img{
-    margin: 2rem;
     border-radius: 4px; 
-    display:block;
-    transition: transform 0.2s, box-shadow 0.2s; /* Adiciona transições suaves para transformações e sombras */
 }
 
   /* Estilo de imagem quando o mouse passa por cima (hover) */
@@ -92,15 +92,10 @@
         padding: 1rem;
         gap: 2rem;
         text-align: center;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .divImagem{
-        margin: auto;
     }
     
     .tituloUm {

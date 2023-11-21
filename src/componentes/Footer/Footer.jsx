@@ -39,7 +39,7 @@ export function Footer(){
                 </div>
     
               <hr />
-              <p className="text-center">© {new Date().getFullYear()} Desenvolvedor Front-End Junior</p>
+              <p className="text-center">© {new Date().getFullYear()} Desenvolvedor Front-End </p>
               <p className="text-center">© {new Date().getFullYear()} Desenvolvedor de Planilhas </p>
               <p className="text-center">© {new Date().getFullYear()} Desenvolvedor de ChatBoots</p>
           

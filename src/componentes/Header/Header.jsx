@@ -4,22 +4,17 @@ import { motion } from "framer-motion";
 import { Image,Col } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import link from '../Botoes/Links/Links';
-
 import  Imagem  from '../../../src/assets/fotosPessoais.png'
 
 export function Header(){
     return(
         <header className="header">  
-            
-          
 
              <div className='divImagem'>
-                 <Col className="m-auto" xs={10} md={12}>
-                    <Image src={Imagem} className='img'  alt='imagem de perfil'  />
+                 <Col className="p-3" xs={10} md={12}>
+                    <Image src={Imagem} className='img'  alt='imagem de perfil' />
                  </Col>
              </div>
-
-            
 
             <motion.div
                 className="box"
@@ -32,7 +27,6 @@ export function Header(){
                 }}
              >
                 <div className="divTitulos">
-
                     <div>
                         <p className="tituloTres"> Olá, meu nome é  </p>
                         <h2 className="tituloUm">Samuel Santana</h2>
@@ -75,8 +69,6 @@ export function Header(){
                     </span>
                 </div>
             </motion.div>
-
         </header>
-      
     )
 }
