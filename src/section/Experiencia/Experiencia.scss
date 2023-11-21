@@ -1,45 +1,40 @@
 @import '../../styles/padroes.scss';
 
-.sectionHabilidade {
+.sectionExperiencia{
+   
     min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
     padding: 1rem;
     color: white;
     background-color: $corDeFundoAzul;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-.divOportunidades {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
 }
 
-.divOportunidades h2{
+
+.sectionHabilidade h2{
     font-size: $tamanhoLetrasTitulosDois;
 }
 
-.divOportunidades h5{
+.sectionHabilidade h5{
     font-size: $tamanhoLetrasTitulosQuatro;
 }
 
 
-.divOportunidades a{
+.sectionHabilidade a{
     font-size: $tamanhoLetrasParagrafos;
 }
 
-.divOportunidades img{
-    max-width: 100%;
-}
+
 
 /* Responsividade para dispositivos móveis */
 @media screen and (max-width: 767px) {
-    #divOportunidades {
+    .sectionExperiencia {
         flex-wrap: wrap;
+    }
+    .imagem{
+        width: 70vw;
+        margin-top: 4rem;
     }
 }
 

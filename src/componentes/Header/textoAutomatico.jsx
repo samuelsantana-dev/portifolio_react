@@ -10,7 +10,7 @@ export function TextAutomatico() {
         // Cria uma nova instância da biblioteca Typed.js no elemento referenciado por 'el'
         const typed = new Typed(el.current, {
             // Define um array de strings que serão digitadas no elemento
-            strings: ['front-end Junior', 'Web Development', 'ChatBots'],
+            strings: ['front-end', 'Web Development', 'ChatBots'],
 
             // Define a velocidade de digitação em milissegundos por caractere
             typeSpeed: 100,

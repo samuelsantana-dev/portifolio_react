@@ -1,9 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useRef } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
 import './CarrosselSemBotao.scss';
-
 
 export function CarrosselSemBotao(props){
     const carousel = useRef(null);
@@ -29,8 +27,6 @@ export function CarrosselSemBotao(props){
         { titulo: props.titulo7, src: props.src7, explicativo: props.explicativo7, href: props.href7 }
       ];
   
-
-  
       return (
         <div className="container">
           <h2>{props.NomeLinguagem}</h2>
@@ -45,7 +41,7 @@ export function CarrosselSemBotao(props){
                 </div>
                 <div className="info">
                     <span className="titulo">{item.titulo}</span>
-                    <span className="explicativo"> {item.explicativo}</span>
+                    <span className="explicativo">{item.explicativo}</span>
                     <a  className="link" href={item.href} target='blank'> Clique aqui </a>
                 </div>
             </div>

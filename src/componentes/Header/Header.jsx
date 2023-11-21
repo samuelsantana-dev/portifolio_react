@@ -32,10 +32,10 @@ export function Header(){
                         <h2 className="tituloUm">Samuel Santana</h2>
                         <h3 className="tituloTres"> Desenvolvedor: {<TextAutomatico />}</h3>
                         <p className='paragrafo'>
-                            Estou no 4º Semestre de analise e desenvolvimento de sistemas e também estudo sobre Front-end, focado no desenvolvimento Web
+                            Sou formado em analise e desenvolvimento de sistemas e sou desenvolvedor Front-end
                         </p>
                         <p className='paragrafo'>
-                            Ao lado direito no canto inferior contem informaçoes que voce pode descobrir sobre mim, com um chatboot feito por mim
+                            Ao lado direito no canto inferior contem informaçoes que voce tera informçoes sobre minha carreira e habilidade, com um chatboot feito por mim
                         </p>
                     </div>       
 

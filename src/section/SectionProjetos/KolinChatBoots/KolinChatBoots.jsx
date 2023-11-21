@@ -27,13 +27,6 @@ export function CarrosselKolinChatBoots(){
                   explicativo4="ChatBoot no canto  direito"
                   href4="#"
                   src4="https://cdn.pixabay.com/photo/2022/07/02/12/23/bot-7297229_640.png"
-
-                  titulo5="Estudos"
-                  explicativo5="Estudos de tecnologias"
-                  href5="https://github.com/Samuel-Santana109/estudos"
-                  src5="https://cdn.pixabay.com/photo/2016/08/27/12/06/website-1624028_640.png"
-            
-            
             />
         </div>
     )

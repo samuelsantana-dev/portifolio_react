@@ -3,7 +3,7 @@ import { NavBar } from './componentes/NavBar/NavBar'
 import { Header } from './componentes/Header/Header'
 import { SectionProjetos } from './section/SectionProjetos/SectionProjetos.jsx'
 import {SobreMim} from './section/SobreMim/SobreMim'
-import { Oportunidades } from './section/Oportunidades/Oportunidades'
+import { Experiencia } from './section/Experiencia/Experiencia.jsx'
 import { Habilidade } from './section/Habilidades/Habilidades'
 import { Footer } from './componentes/Footer/Footer'
 
@@ -30,7 +30,7 @@ function App() {
           <SobreMim id="sobreMim" />
         </motion.div>
 
-      <Oportunidades id="oportunidades" />
+      <Experiencia id="oportunidades" />
       <Habilidade id="habilidade" />
       <SectionProjetos id="projetos" />
       <Footer />

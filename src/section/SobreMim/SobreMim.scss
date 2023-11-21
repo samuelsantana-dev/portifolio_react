@@ -1,26 +1,23 @@
 @import '../../styles/padroes.scss';
 
-.sectionHabilidade {
+.sectionSobreMim {
     min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
     padding: 1rem;
     color: white;
     background-color: $corDeFundoCinza;
     text-align: center;
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
 
-.divPai{
+.sobreMimdivPai{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
-}
-
-.divTextos{
-  display: flex;
 }
 
 .divTextos > h1{
@@ -39,6 +36,7 @@
 .negrito{
     font-weight: bolder;
 }
+
 .imagemSobreMim {
     max-width: 100%; /* Reduz a largura máxima da imagem para 80% em telas menores */
 }
@@ -46,11 +44,7 @@
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
-    .tecnologia_individual {
-      width: 90%;
-    }
-  
-    .divPai {
+    .sobreMimdivPai {
       flex-direction: column;
       align-items: center;
       margin: 1rem;

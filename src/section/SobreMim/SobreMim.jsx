@@ -2,9 +2,9 @@ import  './SobreMim.scss'
 
 export function SobreMim(){
     return(
-        <section className="sectionHabilidade">
-            <div id='SobreMim' className='divPai'>
-            <h1>Sobre Mim</h1>
+        <section id='SobreMim' className="sectionSobreMim">
+            <div  className='sobreMimdivPai'>
+            <h1 className='text-center'>Sobre Mim</h1>
                 <div className='divTextos'>
                    
                     <div>
@@ -15,16 +15,7 @@ export function SobreMim(){
                     </div>
 
                     <div>
-                        <h3>Experiencia</h3>
-                        <p>
-                        Minha trajetória profissional inclui uma experiência como estagiário na DNA System, atuando como desenvolvedor, além de outro estágio no Banco BRB. Também dediquei parte do meu tempo como desenvolvedor voluntário, contribuindo para a área de chatbots e sites. Atualmente, estou focado exclusivamente em meu trabalho como desenvolvedor freelancer, iniciando meu próprio negócio na página  
-                         <a 
-                         href="https://www.instagram.com/techworld" 
-                         className='text-decoration-none fw-bold text-primary'>
-                         Tech World
-                        </a>
-                        , cujo link pode ser encontrado logo abaixo ou na palavra tech world.
-                        </p>
+                     
                     </div>
                 </div>
 
