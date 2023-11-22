@@ -10,7 +10,7 @@ export function SobreMim(){
                     <div>
                         <h3>Frontend Developer</h3>
                         <p>
-                        Olá! Sou Samuel Santana, um desenvolvedor web e de Chatbots de 19 anos, dedicado ao aprimoramento constante. Estou investindo no inglês e em habilidades de aplicativos móveis e chatboots utilizando <span className='negrito'>JavaScript</span>, <span className='negrito'>TypeScript</span> e <span className='negrito'>React</span> para criar sistemas web inovadores. Estou ansioso por novas oportunidades para criar experiências incríveis na web e contribuir para a inovação tecnológica.
+                        Olá! Sou Samuel Santana, um desenvolvedor web e de Chatbots, dedicado ao aprimoramento constante. Estou investindo no inglês e em habilidades de aplicativos móveis e chatboots utilizando <span className='negrito'>JavaScript</span>, <span className='negrito'>TypeScript</span> e <span className='negrito'>React</span> para criar sistemas web inovadores. Estou ansioso por novas oportunidades para criar experiências incríveis na web e contribuir para a inovação tecnológica.
                         </p>
                     </div>
 
