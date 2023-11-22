@@ -3,7 +3,7 @@ import { TextAutomatico } from './textoAutomatico';
 
 import { Image,Col } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
-import link from '../Botoes/Links/Links';
+import {linkedin, instagram, github, whatsapp} from '../Botoes/Links/Links';
 import  Imagem  from '../../../src/assets/fotosPessoais.png'
 
 export function Header(){
@@ -31,24 +31,16 @@ export function Header(){
                     </div>       
 
                     <div>    
-                        <a 
-                        href="https://www.linkedin.com/in/samuelss10/" 
-                        {...link}>
+                        <a {...linkedin}>
                         <FaLinkedin />
                         </a>
-                        <a 
-                        href="https://www.instagram.com/samuelss77/" 
-                        {...link}>
+                        <a {...instagram}>
                         <FaInstagram />
                         </a>
-                        <a 
-                        href="https://github.com/Samuel-Santana109" 
-                    {...link}>
+                        <a {...github} >
                         <FaGithub />
                         </a>
-                        <a 
-                        href="https://wa.me/556191076831" 
-                        {...link}>
+                        <a {...whatsapp} >
                         <FaWhatsapp />
                         </a>
                     </div>

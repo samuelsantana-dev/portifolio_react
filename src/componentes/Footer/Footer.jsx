@@ -1,41 +1,29 @@
 import './Footer.css'
-
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
-import link from '../Botoes/Links/Links';
+import {linkedin, instagram, github, whatsapp} from '../Botoes/Links/Links';
 
 
 export function Footer(){
     return(
         <footer className="text-white footer">
           <div>
-            <h1>Desenvolvedor</h1>
+            <h1>Desenvolvedor Front-End</h1>
             <p>Hoje sou desenvolvedor Front-end mas pretendo me tornar um full stack web e futuramente entrar para o mundo mobile</p>
           </div>
   
           <div>    
-              <a 
-              href="https://www.linkedin.com/in/samuelss10/" 
-              {...link}>
-              <FaLinkedin />
-              </a>
-
-              <a 
-              href="https://www.instagram.com/tech_world128/" 
-              {...link}>
-              <FaInstagram />
-              </a>
-
-              <a 
-              href="https://github.com/Samuel-Santana109" 
-              {...link}>
-              <FaGithub />
-              </a>
-
-              <a 
-              href="https://wa.me/556191076831" 
-              {...link}>
-              <FaWhatsapp />
-              </a>
+            <a {...linkedin}>
+            <FaLinkedin />
+            </a>
+            <a {...instagram}>
+            <FaInstagram />
+            </a>
+            <a {...github} >
+            <FaGithub />
+            </a>
+            <a {...whatsapp} >
+            <FaWhatsapp />
+            </a>
             </div>
             <hr />
             <div>

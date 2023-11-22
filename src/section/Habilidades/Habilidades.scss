@@ -1,8 +1,10 @@
+@import '../../styles/padroes.scss'; 
+
 .sectionHabilidade {
   min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
   padding: 1rem;
   color: white;
-  background-color: #1F242D;
+  background-color: $corDeFundoCinza;
   text-align: center;
 
   display: flex;
