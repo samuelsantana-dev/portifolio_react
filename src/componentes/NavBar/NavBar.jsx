@@ -28,7 +28,7 @@ export function NavBar() {
             <Nav.Link href="#" className="text-light">Inicio</Nav.Link>
             <Nav.Link href="#SobreMim" className="text-light">Sobre Mim</Nav.Link>
             <Nav.Link href="#Projetos" className="text-light">Projetos</Nav.Link>
-            <Nav.Link href="#Oportunidades" className="text-light">Oportunidades</Nav.Link>
+            <Nav.Link href="#Oportunidades" className="text-light">Experiencia</Nav.Link>
             <Nav.Link href="#Tecnologias" className="text-light">Tecnologias</Nav.Link>
           </Nav>
         </Navbar.Collapse>

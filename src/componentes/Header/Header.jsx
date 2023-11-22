@@ -1,6 +1,6 @@
 import './Header.scss'
 import { TextAutomatico } from './textoAutomatico';
-import { motion } from "framer-motion";
+
 import { Image,Col } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import link from '../Botoes/Links/Links';
@@ -16,16 +16,7 @@ export function Header(){
                  </Col>
              </div>
 
-            <motion.div
-                className="box"
-                initial={{ opacity: 0, scale: 0.5 }} // Estilo inicial: opacidade zero e escala a 0.5 (menor)
-                animate={{ opacity: 5, scale: 1 }} // Estilo final: opacidade 1 (totalmente visível) e escala 1 (tamanho normal)
-                transition={{
-                duration: 0.8, // Duração da animação: 0.8 segundos
-                delay: 1.4,    // Atraso antes de iniciar a animação: 0.5 segundos
-                ease: [0, 0.71, 0.5, 1.01] // Curva de easing personalizada para a animação
-                }}
-             >
+         
                 <div className="divTitulos">
                     <div>
                         <p className="tituloTres"> Olá, meu nome é  </p>
@@ -68,7 +59,7 @@ export function Header(){
                         </a>
                     </span>
                 </div>
-            </motion.div>
+          
         </header>
     )
 }
