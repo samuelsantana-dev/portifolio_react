@@ -1,34 +1,33 @@
 @import '../../styles/padroes.scss';
+@import '../../styles/mixins.sass';
 
 .sectionSobreMim {
-    min-height: 100vh; /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
+  @include altura;
+     /* Em vez de altura fixa, usamos min-height para ajustar conforme o conteúdo */
     padding: 1rem;
     color: white;
     background-color: $corDeFundoCinza;
     text-align: center;
 
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-.sobreMimdivPai{
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
 }
 
-.divTextos > h1{
+.divTxt{
+  width: 50%;
+}
+
+.divTexto > h1{
     font-size: $tamanhoLetrasTitulosUm;
 }
 
-.divTextos > h3{
+.divTexto > h3{
     font-size: $tamanhoLetrasTitulosTres;
 }
 
-.divTextos > p{
+.divTexto > p{
     color: $corParagrafos;
     font-size: $tamanhoLetrasParagrafos;
 }
@@ -46,19 +45,31 @@
   list-style: none;
 }
 
-
-
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
-    .sobreMimdivPai {
-      flex-direction: column;
-      align-items: center;
-      margin: 1rem;
-    }
+
+  .divTxt{
+    width: 100%;
+  }
+  .sectionSobreMim {
+    @include altura;
+      flex-wrap: wrap;
+  }
   
-    .divTextos{
+    .divTexto{
       display: flex;
       flex-direction: column;
+    }
+
+    .borda{
+      @include border
+    }
+
+    .divTexto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
   
