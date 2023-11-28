@@ -1,4 +1,5 @@
 import  './Experiencia.scss'
+import { FormaçaoEexperiencia } from './formaçaoEexperiencia/formaçaoEexperiencia'
 
 export function Experiencia(){
     return(
@@ -14,6 +15,11 @@ export function Experiencia(){
                 </a>
                 , cujo link pode ser encontrado logo abaixo ou na palavra tech world.
                 </p>
+
+                <div>
+                       <FormaçaoEexperiencia />
+                </div>
+
             </div>
 
             <div>

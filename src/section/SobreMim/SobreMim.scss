@@ -41,6 +41,12 @@
     max-width: 100%; /* Reduz a largura máxima da imagem para 80% em telas menores */
 }
 
+.SobreMimexperienciaLista {
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {

@@ -7,7 +7,7 @@ import { Experiencia } from './section/Experiencia/Experiencia.jsx'
 import { Habilidade } from './section/Habilidades/Habilidades'
 import { Footer } from './componentes/Footer/Footer'
 import './App.scss'
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 // No início do seu arquivo onde você importa outros módulos
 
 function App() {
@@ -15,16 +15,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Header /> 
-      
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <SobreMim id="sobreMim" />
-      </motion.div>
-
+      <Header id="header"/> 
+      <SobreMim id="sobreMim" />
       <Experiencia id="oportunidades" />
       <Habilidade id="habilidade" />
       <SectionProjetos id="projetos" />

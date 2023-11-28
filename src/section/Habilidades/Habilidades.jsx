@@ -10,7 +10,7 @@ import {
     DiGit,
     DiNpm,
     DiCelluloid,
-    DiCss3Full,
+    DiCss3Full
   } from "react-icons/di";
   
   const technologies = [
@@ -24,7 +24,10 @@ import {
     { id: "git", name: "Git e GitHub",icon: <DiGit />, text: "Sistema de Controle de Versão e Plataforma de Colaboração de Código" },
     { id: "npxnpm", name: "Npx e Npm", icon: <DiNpm />, text: "Gerenciadores de Pacotes para Projetos JavaScript" },
     { id: "dialogflow", name: "Dialogflow", icon: <DiCelluloid />, text: "Plataforma de Desenvolvimento de Chatbots e Assistentes Virtuais" },
-    { id: "tailwindui", name: "Tailwind CSS", icon: <DiCss3Full />, text: "Framework CSS Utilizado para o Desenvolvimento Web" }
+    { id: "tailwindui", name: "Tailwind CSS", icon: <DiCss3Full />, text: "Framework CSS Utilizado para o Desenvolvimento Web" },
+    { id: "reactNative", name: "React Native", icon: <DiReact />, text: "Framework utilizado para o desenvolvimento de aplicativos móveis multiplataforma" },
+    { id: "wordpress", name: "WordPress", icon: <DiCelluloid />, text: "Plataforma de gerenciamento de conteúdo (CMS) utilizada para criar sites e blogs" },
+
 ];
 
   
