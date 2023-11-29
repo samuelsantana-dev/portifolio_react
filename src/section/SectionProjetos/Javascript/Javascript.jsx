@@ -10,39 +10,34 @@ import img5 from '../../../assets/carrosselJs/redeSocial.jpg'
 export function CarrosselJavascript(){
     return(
         <>   
-
             <CarrosselSemBotao 
-                NomeLinguagem="Javascript, Html e Css"
+                NomeLinguagem="JavaScript, HTML e CSS"
 
-                titulo1="Calculo Imc"
-                explicativo1="Site calculo imc"
+                titulo1="Cálculo IMC"
+                explicativo1="Site para cálculo de IMC."
                 href1="https://github.com/Samuel-Santana109/projeto-imc/tree/master/"
                 src1={img}
 
                 titulo2="ToDoList"
-                explicativo2="Um toDoList feito em javascript"
+                explicativo2="Um ToDoList feito em JavaScript."
                 href2="https://github.com/Samuel-Santana109/toDoList/"
                 src2={img2}
 
-                titulo3="Leading page coca cola"
-                explicativo3="Site coca cola apenas para pc"
+                titulo3="Landing Page Coca-Cola"
+                explicativo3="Site da Coca-Cola apenas para PC."
                 href3="https://github.com/Samuel-Santana109/primeVideo/tree/master"
                 src3={img3}
 
                 titulo4="Projeto Cordel"
-                explicativo4="Site parallax"
+                explicativo4="Site com efeito parallax."
                 href4="https://github.com/Samuel-Santana109/projeto-cordell"
                 src4={img4}
 
                 titulo5="Rede Social"
-                explicativo5="Site de Eventos"
+                explicativo5="Site de eventos."
                 href5="https://samuel-santana109.github.io/Rede-Social/"
                 src5={img5}
-
-                
-          
             />
-            
         </>
     )
 }
