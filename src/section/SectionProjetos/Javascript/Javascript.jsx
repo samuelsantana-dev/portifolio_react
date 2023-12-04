@@ -1,10 +1,6 @@
 
 import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
-import img from '../../../assets/carrosselJs/academia.jpg'
-import img2 from '../../../assets/carrosselJs/todoList.jpg'
-import img3 from '../../../assets/carrosselJs/cocaCola.jpg'
 import img4 from '../../../assets/carrosselJs/cafe.jpg'
-import img5 from '../../../assets/carrosselJs/redeSocial.jpg'
 
 
 export function CarrosselJavascript(){
@@ -13,20 +9,20 @@ export function CarrosselJavascript(){
             <CarrosselSemBotao 
                 NomeLinguagem="JavaScript, HTML e CSS"
 
-                titulo1="Cálculo IMC"
-                explicativo1="Site para cálculo de IMC."
-                href1="https://github.com/Samuel-Santana109/projeto-imc/tree/master/"
-                src1={img}
+                titulo1="Blog_design"
+                explicativo1="Design de blog em bootstrap"
+                href1="https://samuel-santana109.github.io/Blog_design/"
+                src1="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=600"
 
-                titulo2="ToDoList"
-                explicativo2="Um ToDoList feito em JavaScript."
-                href2="https://github.com/Samuel-Santana109/toDoList/"
-                src2={img2}
+                titulo2="checkout_design"
+                explicativo2="Design de checkout em bootstrap"
+                href2="https://samuel-santana109.github.io/Blog_design/"
+                src2="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600"
 
-                titulo3="Landing Page Coca-Cola"
-                explicativo3="Site da Coca-Cola apenas para PC."
-                href3="https://github.com/Samuel-Santana109/primeVideo/tree/master"
-                src3={img3}
+                titulo3="Album_design"
+                explicativo3="Design de Albúm em bootstrap"
+                href3=" https://samuel-santana109.github.io/album_design/"
+                src3="https://images.pexels.com/photos/895228/pexels-photo-895228.jpeg?auto=compress&cs=tinysrgb&w=800"
 
                 titulo4="Projeto Cordel"
                 explicativo4="Site com efeito parallax."
@@ -34,9 +30,9 @@ export function CarrosselJavascript(){
                 src4={img4}
 
                 titulo5="Rede Social"
-                explicativo5="Site de eventos."
+                explicativo5="Site das minhas redes sociais"
                 href5="https://samuel-santana109.github.io/Rede-Social/"
-                src5={img5}
+                src5="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
         </>
     )

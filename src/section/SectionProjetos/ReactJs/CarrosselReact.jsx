@@ -8,7 +8,7 @@ export function CarrosselReact(){
         <CarrosselSemBotao 
             NomeLinguagem="React.js"
         
-            titulo1="BLOG"
+            titulo1="Blog"
             explicativo1="Este é um blog feito em React.js."
             href1="https://github.com/Samuel-Santana109/blog_react_ts"
             src1="https://cdn.pixabay.com/photo/2018/08/23/10/52/code-3625646_1280.jpg"
