@@ -16,7 +16,7 @@ export function CarrosselJavascript(){
 
                 titulo2="checkout_design"
                 explicativo2="Design de checkout em bootstrap"
-                href2="https://samuel-santana109.github.io/Blog_design/"
+                href2="https://samuel-santana109.github.io/checkout_design/"
                 src2="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600"
 
                 titulo3="Album_design"
