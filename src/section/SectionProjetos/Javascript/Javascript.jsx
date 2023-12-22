@@ -2,7 +2,6 @@
 import { CarrosselSemBotao } from '../../../componentes/Carrossel/CarrosselSemBotao'
 import img4 from '../../../assets/carrosselJs/cafe.jpg'
 
-
 export function CarrosselJavascript(){
     return(
         <>   

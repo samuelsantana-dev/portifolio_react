@@ -13,20 +13,22 @@ export function Footer(){
           </div>
   
           <div>    
-            <a {...linkedin}>
-            <FaLinkedin />
-            </a>
-            <a {...instagram}>
-            <FaInstagram />
-            </a>
-            <a {...github} >
-            <FaGithub />
-            </a>
-            <a {...whatsapp} >
-            <FaWhatsapp />
-            </a>
+              <a {...linkedin}>
+              <FaLinkedin />
+              </a>
+              <a {...instagram}>
+              <FaInstagram />
+              </a>
+              <a {...github} >
+              <FaGithub />
+              </a>
+              <a {...whatsapp} >
+              <FaWhatsapp />
+              </a>
             </div>
+
             <hr />
+            
             <div>
               <span className="text-center">© {new Date().getFullYear()} Desenvolvedor Front-End </span>
               <span className="text-center">© {new Date().getFullYear()} Desenvolvedor de ChatBots</span>

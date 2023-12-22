@@ -10,7 +10,8 @@ import {
     DiGit,
     DiNpm,
     DiCelluloid,
-    DiCss3Full
+    DiCss3Full,
+    DiMysql
   } from "react-icons/di";
   
   const technologies = [
@@ -26,7 +27,7 @@ import {
     { id: "dialogflow", name: "Dialogflow", icon: <DiCelluloid />, text: "Plataforma de Desenvolvimento de Chatbots e Assistentes Virtuais" },
     { id: "tailwindui", name: "Tailwind CSS", icon: <DiCss3Full />, text: "Framework CSS Utilizado no Desenvolvimento Web" },
     { id: "reactNative", name: "React Native", icon: <DiReact />, text: "Framework para Desenvolvimento de Aplicativos Móveis Multiplataforma" },
-    { id: "wordpress", name: "WordPress", icon: <DiCelluloid />, text: "Plataforma de Gerenciamento de Conteúdo (CMS) para Sites e Blogs" }
+    { id: "wordpress", name: "WordPress", icon: <DiCelluloid />, text: "Plataforma de Gerenciamento de Conteúdo (CMS) para Sites e Blogs" }, { id: "banco de dados My Sql", name: "My Sql", icon: <DiMysql />, text: "Plataforma de Gerenciamento Banco de Dados" }
 ];
 
   
