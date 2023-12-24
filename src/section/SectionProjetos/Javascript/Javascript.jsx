@@ -8,10 +8,10 @@ export function CarrosselJavascript(){
             <CarrosselSemBotao 
                 NomeLinguagem="JavaScript, HTML e CSS"
 
-                titulo1="Blog_design"
-                explicativo1="Design de blog em bootstrap"
-                href1="https://samuel-santana109.github.io/Blog_design/"
-                src1="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=600"
+                titulo1="Pagina Pessoal Demonstrativa"
+                explicativo1="Pessoal Demonstrativo"
+                href1="https://samuel-santana109.github.io/PaginaPessoalCaptura/"
+                src1="https://images.pexels.com/photos/5926378/pexels-photo-5926378.jpeg?auto=compress&cs=tinysrgb&w=400"
 
                 titulo2="checkout_design"
                 explicativo2="Design de checkout em bootstrap"
@@ -28,10 +28,20 @@ export function CarrosselJavascript(){
                 href4="https://github.com/Samuel-Santana109/projeto-cordell"
                 src4={img4}
 
-                titulo5="Rede Social"
+                titulo5="Pagina de Captura"
                 explicativo5="Site das minhas redes sociais"
-                href5="https://samuel-santana109.github.io/Rede-Social/"
-                src5="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600"
+                href5="https://samuel-santana109.github.io/paginaDeCaptura/"
+                src5="https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=400"
+
+                titulo6="Rede Social"
+                explicativo6="Site das minhas redes sociais"
+                href6="https://samuel-santana109.github.io/Rede-Social/"
+                src6="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+                titulo7="Blog_design"
+                explicativo7="Design de blog em bootstrap"
+                href7="https://samuel-santana109.github.io/Blog_design/"
+                src7="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
         </>
     )
