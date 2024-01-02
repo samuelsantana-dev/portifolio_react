@@ -3,7 +3,7 @@ import { TextAutomatico } from './textoAutomatico';
 import { Image,Col } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import {linkedin, instagram, github, whatsapp} from '../Botoes/Links/Links';
-import  Imagem  from '../../../src/assets/fotosPessoais.png'
+import  Imagem  from '../../../src/assets/FotoPessoalLinkedin.png'
 
 export function Header(){
     return(
