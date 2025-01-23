@@ -10,12 +10,12 @@ export function CarrosselKolinChatBoots(){
 
                 titulo1="App de Investimentos"
                 explicativo1="Funcionalidade de login."
-                href1="https://github.com/Samuel-Santana109/Investimento_android"
+                href1="https://github.com/samuelsantana-dev/Investimento_android"
                 src1="https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
 
                 titulo2="Tela de Login"
                 explicativo2="Aplicativo em Kotlin para investimentos."
-                href2="https://github.com/Samuel-Santana109/TelaLogin"
+                href2="https://github.com/samuelsantana-dev/TelaLogin"
                 src2="https://cdn.pixabay.com/photo/2017/05/09/13/33/laptop-2298286_1280.png"
 
                 titulo3="Chatbot"

@@ -6,7 +6,7 @@ const createLink = (href) => ({
     href
 })
 
-export const linkedin = createLink("https://www.linkedin.com/in/samuelss10/")
-export const instagram = createLink("https://www.instagram.com/samuelss77/")
-export const github = createLink("https://github.com/Samuel-Santana109" )
+export const linkedin = createLink("https://www.linkedin.com/in/samuelsantana-dev/")
+export const instagram = createLink("https://www.instagram.com/samuelsantana.dev/")
+export const github = createLink("https://github.com/samuelsantana-dev" )
 export const whatsapp = createLink("https://wa.me/556191076831" )
