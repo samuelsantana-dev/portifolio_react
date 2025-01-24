@@ -11,8 +11,9 @@ export function SobreMim(){
                 <div className='divTxt'>
                     <h3 className='text-center'>Desenvolvedor Frontend</h3>
                     <p className='text-center'>
-                        Olá! Sou Samuel Santana, um desenvolvedor web e de Chatbots, dedicado ao aprimoramento constante. Estou investindo no inglês e em habilidades de aplicativos móveis e chatbots utilizando <span className='negrito'>JavaScript</span>, <span className='negrito'>TypeScript</span> e <span className='negrito'>React</span> para criar sistemas web inovadores. Estou ansioso por novas oportunidades para criar experiências incríveis na web e contribuir para a inovação tecnológica.
+                    Olá! Sou Samuel Santana, um Desenvolvedor Full-Stack javascript React e nodejs, formado em Análise e Desenvolvimento de Sistemas, tenho experiência como desenvolvedor, atuando no desenvolvimento de sistemas, capacidade de negociar demandas e soluções diretamente com minha liderança e cliente. 
                     </p>
+                    <p>Capacidade de resolver problemas de forma eficaz e eficiente, experiência com desenvolvimento de software front-end, possuo experiência com Desenvolvimento Front End React; Next.js, Vue.js experiência com Typescript, Experiência com ferramentas de design como Design Systens em geral, Conhecimento de UI e boas noções de UX, metodologias ágeis (Scrum e Agile), Conhecer padrões e estrutura de projetos Web. </p>
                 </div>
 
                 <span className='borda'></span>
