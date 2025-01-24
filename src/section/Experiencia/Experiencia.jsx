@@ -5,7 +5,7 @@ export function Experiencia(){
 
     const experiencias = [
         {
-            titulo: 'Desenvolvedor Full-Stack',
+            titulo: 'Desenvolvedor Full-Stack React.js e Node.js',
             empresa: 'Tech World',
             periodo: 'Janeiro 2022 - Janeiro 2023',
             descricao: `Desenvolvimento de sites utilizando ReactJS, Tailwind, Bootstrap, TypeScript, JavaScript e CSS, com versionamento no Git. 
@@ -13,7 +13,7 @@ export function Experiencia(){
             Conhecimento em Engenharia de Software, Clean Code e SQL (Select, Insert, Update, Delete, Relacionamentos). Desenvolvimento de aplicativos iOS com React Native.`
         },
         {
-          titulo: 'Desenvolvedor Full-Stack',
+          titulo: 'Desenvolvedor Front-End Vue.js',
           empresa: 'Lusa Tecnologias',
           periodo: 'Julho 2024 - Dezembro 2024',
           descricao: `Experiência com Desenvolvimento Front End usando React e Next.js. Domínio de TypeScript e Programação Orientada a Objetos (Classe, Encapsulamento). 
@@ -21,14 +21,14 @@ export function Experiencia(){
           implementação de autenticação com Auth.js, KISS, Swagger, Ionic, Controle de Versionamento, Relay, e ExtJS.`
         },
         {
-          titulo: 'Desenvolvedor Full-Stack',
+          titulo: 'Desenvolvedor Full-Stack React.js e Node.js',
           empresa: 'Freelancer',
           periodo: 'Janeiro 2023 - Janeiro 2024',
           descricao: `Experiência com tecnologias de controle de estado como Redux, Zustand, Jotai e Context API. Trabalho com Langchain, engenharia de prompts, RAG e práticas de CI/CD. 
           Uso de metodologias ágeis para garantir a qualidade e a performance das aplicações por meio de boas práticas de codificação e testes.`
         },
         {
-          titulo: 'Desenvolvedor Full-Stack',
+          titulo: 'Desenvolvedor Full-Stack React.js e Node.js',
           empresa: 'Pipe Tech',
           periodo: 'Janeiro 2024 - Dezembro 2024',
           descricao: `Participação no desenvolvimento de projetos web em equipe utilizando TypeScript, ReactJS, Material UI e bibliotecas modernas de JavaScript. 
