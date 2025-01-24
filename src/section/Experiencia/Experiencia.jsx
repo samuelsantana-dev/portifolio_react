@@ -8,13 +8,7 @@ export function Experiencia(){
             <div>
                 <h3 className='text-center'>Experiência</h3>
                 <p className='text-center'>
-                    Minha trajetória profissional inclui uma experiência como estagiário na DNA System, atuando como desenvolvedor, além de outro estágio no Banco BRB. Também dediquei parte do meu tempo como desenvolvedor voluntário, contribuindo para a área de chatbots e sites. Atualmente, estou focado exclusivamente em meu trabalho como desenvolvedor freelancer, iniciando meu próprio negócio na página
-                    <a
-                        href="https://www.instagram.com/techworld"
-                        className='text-decoration-none fw-bold text-primary'>
-                        Tech World
-                    </a>
-                    , cujo link pode ser encontrado logo abaixo ou na palavra Tech World.
+                Desenvolvo sites utilizando ReactJS, Tailwind, Bootstrap, TypeScript, JavaScript e CSS, com versionamento no Git. Adapto soluções para cada projeto, trabalhando de forma orientada ou de maneira independente, Conhecimento em utilizar APIs em formato REST e GraphQL, Experiência com algumas das tecnologias de controle de estado Redux, Zustand, Jotai ou Context api, Experiência com algumas das tecnologias de controle de estado Redux, Zustand, Jotai ou Context api, HTML, CSS,Javascript/Typescript GIT e práticas de CI/CD, Metodologia ágeis, Conhecimento em Integração com API`s, Capacidade de resolver problemas de forma eficaz e eficiente.
                 </p>
             </div>
             
