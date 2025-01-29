@@ -9,11 +9,11 @@ export function SobreMim(){
             <div className='divTexto d-flex'>
 
                 <div className='divTxt'>
-                    <h3 className='text-center'>Desenvolvedor Frontend</h3>
+                    <h3 className='text-center'>Desenvolvedor Full Stack </h3>
                     <p className='text-center'>
-                    Olá! Sou Samuel Santana, um Desenvolvedor Full-Stack javascript React e nodejs, formado em Análise e Desenvolvimento de Sistemas, tenho experiência como desenvolvedor, atuando no desenvolvimento de sistemas, capacidade de negociar demandas e soluções diretamente com minha liderança e cliente. 
+                    Olá! Sou Samuel Santana, um Desenvolvedor <strong>Full-Stack javascript React e nodejs</strong>, formado em Análise e Desenvolvimento de Sistemas, tenho experiência como desenvolvedor, atuando no desenvolvimento de sistemas, capacidade de negociar demandas e soluções diretamente com minha liderança e cliente. 
                     </p>
-                    <p>Capacidade de resolver problemas de forma eficaz e eficiente, experiência com desenvolvimento de software front-end, possuo experiência com Desenvolvimento Front End React; Next.js, Vue.js experiência com Typescript, Experiência com ferramentas de design como Design Systens em geral, Conhecimento de UI e boas noções de UX, metodologias ágeis (Scrum e Agile), Conhecer padrões e estrutura de projetos Web. </p>
+                    <p>Capacidade de resolver problemas de forma eficaz e eficiente, experiência com desenvolvimento de software front-end, possuo experiência com Desenvolvimento Full Stack: Next.js, Vue.js, node.js experiência com Typescript, Experiência com ferramentas de design como Design Systens em geral, Conhecimento de UI e boas noções de UX, metodologias ágeis (Scrum e Agile), mongoDb, MySql,PostgreSql, ApiRest, TypeOrm, Prisma Conhecer padrões e estrutura de projetos Web. </p>
                 </div>
 
                 <span className='borda'></span>
